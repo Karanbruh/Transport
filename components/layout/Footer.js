@@ -50,7 +50,7 @@ export default function Footer1({ }) {
                                     <li><Link href="#">Value added</Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 width-20 mb-30">
+                            {/* <div className="col-lg-3 width-20 mb-30">
                                 <h5 className="mb-10 color-brand-1">Gallery</h5>
                                 <div className="galleries-footer">
                                     <ul className="list-imgs">
@@ -65,7 +65,7 @@ export default function Footer1({ }) {
                                         <li> <img src="/assets/imgs/page/homepage1/gal9.png" alt="transp" /></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
