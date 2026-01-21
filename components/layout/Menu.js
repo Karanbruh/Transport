@@ -17,7 +17,8 @@ export default function Menu() {
                     </ul> */}
                 </li>
                 <li><Link href="/about">About Us</Link></li>
-                <li className="has-children"><Link href="#">Services</Link>
+                <li><Link href="/services">Services</Link></li>
+                {/* <li className="has-children"><Link href="#">Services</Link>
                     <div className="sub-menu five-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Sea Forwarding</h6>
@@ -75,7 +76,7 @@ export default function Menu() {
                             </ul>
                         </div>
                     </div>
-                </li>
+                </li> */}
                 {/* <li className="has-children"><Link href="#">Pages</Link>
                     <ul className="sub-menu">
                         <li><Link href="/service-detail">Service Detail</Link></li>

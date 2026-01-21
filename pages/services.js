@@ -12,22 +12,22 @@ export default function Service() {
     const handleScroll = () => {
         const elements = document.getElementsByClassName('counterUp')
         if (elements.length > 0) {
-        const element = elements[0]
-        const rect = element.getBoundingClientRect();
-        const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
-        if (isInViewport && !inViewport) {
-            setInViewport(true);
-        }
+            const element = elements[0]
+            const rect = element.getBoundingClientRect();
+            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
+            if (isInViewport && !inViewport) {
+                setInViewport(true);
+            }
         }
     }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
         return () => {
-        window.removeEventListener('scroll', handleScroll)
+            window.removeEventListener('scroll', handleScroll)
         }
     }, [])
-    
+
     return (
         <>
             <Layout>
@@ -178,7 +178,7 @@ export default function Service() {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-200 bg-2 bg-request-quote-3">
+                {/* <section className="section mt-200 bg-2 bg-request-quote-3">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
@@ -311,8 +311,8 @@ export default function Service() {
                             </div>
                         </div>
                     </div>
-                </section>
-                <Pricing2 />
+                </section> */}
+                {/* <Pricing2 /> */}
                 <div className="line-border" />
                 <section className="section pt-80 mb-70 bg-faqs">
                     <div className="container">
