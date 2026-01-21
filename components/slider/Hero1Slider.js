@@ -37,11 +37,11 @@ export default function Hero1Slider() {
                                                 and objectives is what drives mutual success.</p>
                                         </div>
                                     </div>
-                                    <div className="box-button mt-30">
+                                    {/* <div className="box-button mt-30">
                                         <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#">Calculate Package</Link>
                                         <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
                                             <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work
-                                            ?</a></div>
+                                            ?</a></div> */}
 
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
@@ -63,8 +63,8 @@ export default function Hero1Slider() {
                                                 and objectives is what drives mutual success.</p>
                                         </div>
                                     </div>
-                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work
-                                        ?</a></div>
+                                    {/* <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work
+                                        ?</a></div> */}
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                             </div>

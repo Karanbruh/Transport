@@ -8,13 +8,13 @@ export default function Menu() {
         <>
 
             <ul className="main-menu">
-                <li className="has-children"><Link className="active" href="/">Home</Link>
-                    <ul className="sub-menu">
+                <li ><Link className="active" href="/">Home</Link>
+                    {/* <ul className="sub-menu">
                         <li><Link href="/">Homepage - 1</Link></li>
                         <li><Link href="/index-2">Homepage - 2</Link></li>
                         <li><Link href="/index-3">Homepage - 3</Link></li>
                         <li><Link href="/index-4">Homepage - 4</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li><Link href="/about">About Us</Link></li>
                 <li className="has-children"><Link href="#">Services</Link>
@@ -76,7 +76,7 @@ export default function Menu() {
                         </div>
                     </div>
                 </li>
-                <li className="has-children"><Link href="#">Pages</Link>
+                {/* <li className="has-children"><Link href="#">Pages</Link>
                     <ul className="sub-menu">
                         <li><Link href="/service-detail">Service Detail</Link></li>
                         <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
@@ -90,12 +90,12 @@ export default function Menu() {
                         <li><Link href="/newsletter">Newsletter</Link></li>
                         <li><Link href="/404">Error 404</Link></li>
                     </ul>
-                </li>
-                <li className="has-children"><Link href="/blog">Blog</Link>
+                </li> */}
+                {/* <li className="has-children"><Link href="/blog">Blog</Link>
                     <ul className="sub-menu">
                         <li><Link href="/blog-single">Blog Details</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
         </>

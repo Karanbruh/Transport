@@ -8,22 +8,22 @@ export default function Requestquote1() {
     const handleScroll = () => {
         const elements = document.getElementsByClassName('counterUp');
         if (elements.length > 0) {
-        const element = elements[0];
-        const rect = element.getBoundingClientRect();
-        const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-        if (isInViewport && !inViewport) {
-            setInViewport(true);
-        }
+            const element = elements[0];
+            const rect = element.getBoundingClientRect();
+            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+            if (isInViewport && !inViewport) {
+                setInViewport(true);
+            }
         }
     }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
     return (
         <>
             <section className="section bg-leading-company pt-95">
@@ -75,7 +75,7 @@ export default function Requestquote1() {
                             </div>
                         </div>
                     </div>
-                    <div className="box-form-contact-leading">
+                    {/* <div className="box-form-contact-leading">
                         <div className="row">
                             <div className="col-lg-8">
                                 <h2 className="title-favicon color-brand-2 mb-15">Calculate Shipping</h2>
@@ -187,7 +187,7 @@ export default function Requestquote1() {
                                 <div className="box-image-contact"><img src="/assets/imgs/page/homepage1/img-contact.png" alt="transp" /></div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>
