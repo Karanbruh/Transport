@@ -21,14 +21,16 @@ export default function Footer1({ }) {
                                 <h5 className="mb-10 color-brand-1">Company</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="/about">Mission &amp; Vision</Link></li>
-                                    <li><Link href="/team">Our Team</Link></li>
-                                    <li><Link href="/career">Careers</Link></li>
-                                    <li><Link href="#">Press &amp; Media</Link></li>
-                                    <li><Link href="#">Advertising</Link></li>
-                                    <li><Link href="#">Testimonials</Link></li>
+                                    <li>
+                                        <Link href="/contact#meet-our-team">Our Team</Link>
+                                    </li>
+                                    {/* <li><Link href="/career">Careers</Link></li> */}
+                                    {/* <li><Link href="#">Press &amp; Media</Link></li> */}
+                                    {/* <li><Link href="#">Advertising</Link></li> */}
+                                    <li><Link href="/#testimonials">Testimonials</Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 width-16 mb-30">
+                            {/* <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-1">Industries</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="#">Global coverage</Link></li>
@@ -38,16 +40,16 @@ export default function Footer1({ }) {
                                     <li><Link href="#">Supply Chain</Link></li>
                                     <li><Link href="#">Warehousing</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-1">Services</h5>
                                 <ul className="menu-footer">
-                                    <li><Link href="#">Air Freight</Link></li>
-                                    <li><Link href="#">Ocean Freight</Link></li>
-                                    <li><Link href="#">Railway Freight</Link></li>
-                                    <li><Link href="#">Warehousing</Link></li>
-                                    <li><Link href="#">Distribution</Link></li>
-                                    <li><Link href="#">Value added</Link></li>
+                                    <li><Link href="/services">Air Freight</Link></li>
+                                    <li><Link href="/services">Ocean Freight</Link></li>
+                                    <li><Link href="/services">Railway Freight</Link></li>
+                                    <li><Link href="/services">Warehousing</Link></li>
+                                    <li><Link href="/services">Distribution</Link></li>
+                                    <li><Link href="/services">Value added</Link></li>
                                 </ul>
                             </div>
                             {/* <div className="col-lg-3 width-20 mb-30">

@@ -3,7 +3,7 @@ import Testimonial1Slider from "@/components/slider/Testimonial1Slider";
 export default function Testimonial1() {
     return (
         <>
-            <section className="section mt-50 bg-customers-say">
+            <section id="testimonials" className="section mt-50 bg-customers-say">
                 <div className="container">
                     <h2 className="title-favicon color-white mb-20 title-padding-left wow animate__animated animate__fadeIn">
                         What our customers are saying</h2>
