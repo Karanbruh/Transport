@@ -21,9 +21,9 @@ export default function Footer1({ }) {
                                 <h5 className="mb-10 color-brand-1">Company</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="/about">Mission &amp; Vision</Link></li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/contact#meet-our-team">Our Team</Link>
-                                    </li>
+                                    </li> */}
                                     {/* <li><Link href="/career">Careers</Link></li> */}
                                     {/* <li><Link href="#">Press &amp; Media</Link></li> */}
                                     {/* <li><Link href="#">Advertising</Link></li> */}
@@ -44,12 +44,12 @@ export default function Footer1({ }) {
                             <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-1">Services</h5>
                                 <ul className="menu-footer">
-                                    <li><Link href="/services">Air Freight</Link></li>
-                                    <li><Link href="/services">Ocean Freight</Link></li>
-                                    <li><Link href="/services">Railway Freight</Link></li>
-                                    <li><Link href="/services">Warehousing</Link></li>
-                                    <li><Link href="/services">Distribution</Link></li>
-                                    <li><Link href="/services">Value added</Link></li>
+                                    <li><Link href="/services">Custom Clearance (CHA)</Link></li>
+                                    <li><Link href="/services">Air & Sea Cargo</Link></li>
+                                    <li><Link href="/services">Freight Forwarding</Link></li>
+                                    <li><Link href="/services">Land Transport</Link></li>
+                                    {/* <li><Link href="/services">Distribution</Link></li>
+                                    <li><Link href="/services">Value added</Link></li> */}
                                 </ul>
                             </div>
                             {/* <div className="col-lg-3 width-20 mb-30">

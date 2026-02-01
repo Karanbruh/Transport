@@ -9,6 +9,66 @@ export default function Service() {
     const [isOpen, setOpen] = useState(false)
     const [inViewport, setInViewport] = useState(false)
 
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+        company: "", // honeypot
+    })
+
+    const [status, setStatus] = useState({
+        loading: false,
+        success: "",
+        error: "",
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setFormData((prev) => ({ ...prev, [name]: value }))
+    }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        // Honeypot spam check
+        if (formData.company) return
+
+        setStatus({ loading: true, success: "", error: "" })
+
+        try {
+            const res = await fetch("https://formspree.io/f/xeeeblby", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            })
+
+            if (!res.ok) throw new Error()
+
+            setStatus({
+                loading: false,
+                success: "Thanks! Your message has been sent.",
+                error: "",
+            })
+
+            setFormData({
+                name: "",
+                email: "",
+                phone: "",
+                subject: "",
+                message: "",
+                company: "",
+            })
+        } catch {
+            setStatus({
+                loading: false,
+                success: "",
+                error: "Something went wrong. Please try again.",
+            })
+        }
+    }
+
     const handleScroll = () => {
         const elements = document.getElementsByClassName('counterUp')
         if (elements.length > 0) {
@@ -34,8 +94,10 @@ export default function Service() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">What we offer</span>
-                            <h2 className="color-brand-2 mt-15 mb-10 wow animate__animated animate__fadeIn">Our Services</h2>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p>
+                            <h2 className="color-brand-2 mt-15 mb-10">Our Services</h2>
+                            <p className="font-md color-grey-900">
+                                Simple solutions for complex logistics.
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -44,63 +106,79 @@ export default function Service() {
                         <div className="row">
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service1.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
-                                        <h6 className="color-brand-2">Sea Forwarding</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service1.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                        <h6 className="color-brand-2">Custom Clearance (CHA)</h6>
+                                        <p className="font-xs color-grey-900">
+                                            As a licensed Custom House Agent, we handle duty assessments, HS codes,
+                                            and all documentation to ensure fast and compliant customs clearance.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service2.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/plane.png" alt="transp" />
-                                        <h6 className="color-brand-2">Air Freight Forwarding</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service2.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage3/plane.png" alt="transp" />
+                                        <h6 className="color-brand-2">Air &amp; Sea Cargo</h6>
+                                        <p className="font-xs color-grey-900">
+                                            From JNPT seaports to international air cargo terminals, we manage FCL,
+                                            LCL, and urgent air freight with quick release and dispatch.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service3.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
-                                        <h6 className="color-brand-2">Land Transportation</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
-                                </div>
-                            </div>
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service3.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                        <h6 className="color-brand-2">Freight Forwarding</h6>
+                                        <p className="font-xs color-grey-900">
+                                            We negotiate directly with shipping lines and airlines to secure optimal
+                                            routes and the most competitive global freight rates.
+                                        </p>
+                                    </div>
+                                </div >
+                            </div >
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service4.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
-                                        <h6 className="color-brand-2">Railway Logistics</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service4.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
+                                        <h6 className="color-brand-2">Land Transport</h6>
+                                        <p className="font-xs color-grey-900">
+                                            Door-to-door trucking solutions to move your cargo safely from ports,
+                                            airports, or border stations directly to your warehouse.
+                                        </p>
+                                    </div>
+                                </div >
+                            </div >
+                            {/* <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/services/warehouse.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/warehouse.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" />
                                         <h6 className="color-brand-2">Warehouse &amp; Distribution</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
-                                </div>
-                            </div>
+                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
+                                </div >
+                            </div >
                             <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/services/train.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/train.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" />
                                         <h6 className="color-brand-2">Cross Border</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
-                                </div>
-                            </div>
+                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
+                                </div >
+                            </div >
                             <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/services/ship.png" alt="transp" /></Link></div>
-                                    <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/ship.png" alt="transp" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" />
                                         <h6 className="color-brand-2">Customs Brokerages</h6>
-                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></Link></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                        <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
+                                </div >
+                            </div > */}
+                        </div >
+                    </div >
+                </section >
                 <div className="mt-50" />
                 <section className="section pt-20 pb-120">
                     <div className="container">
@@ -155,7 +233,7 @@ export default function Service() {
                                         </div>
                                         <div className="box-item-number box-item-number-2 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={345} duration={10} />}</span></h2>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h2>
                                                 <h6 className="color-white">Countries covered</h6>
                                             </div>
                                         </div>
@@ -163,13 +241,13 @@ export default function Service() {
                                     <div className="col-sm-6">
                                         <div className="box-item-number box-item-number-3 mt-30 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={245} duration={10} />}</span></h2>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h2>
                                                 <h6 className="color-white">Satisfied Clients</h6>
                                             </div>
                                         </div>
                                         <div className="box-item-number box-item-number-4 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={546} duration={10} />}</span></h2>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span></h2>
                                                 <h6 className="color-white">Tons of goods</h6>
                                             </div>
                                         </div>
@@ -348,79 +426,187 @@ export default function Service() {
                 <div className="section bg-map d-block">
                     <div className="container">
                         <div className="box-newsletter">
-                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
+                            <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">
+                                Get in Touch
+                            </h3>
+
                             <div className="row">
+                                {/* FORM */}
                                 <div className="col-lg-5 mb-30">
                                     <div className="form-newsletter wow animate__animated animate__fadeIn">
-                                        <form action="#">
+                                        <form onSubmit={handleSubmit}>
                                             <div className="row">
+
+                                                {/* Honeypot */}
+                                                <input
+                                                    type="text"
+                                                    name="company"
+                                                    value={formData.company}
+                                                    onChange={handleChange}
+                                                    style={{ display: "none" }}
+                                                    tabIndex="-1"
+                                                    autoComplete="off"
+                                                />
+
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your name *" />
+                                                        <input
+                                                            className="form-control"
+                                                            name="name"
+                                                            value={formData.name}
+                                                            onChange={handleChange}
+                                                            placeholder="Your name *"
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
+
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Your email *" />
+                                                        <input
+                                                            className="form-control"
+                                                            type="email"
+                                                            name="email"
+                                                            value={formData.email}
+                                                            onChange={handleChange}
+                                                            placeholder="Your email *"
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
+
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Weight" />
+                                                        <input
+                                                            className="form-control"
+                                                            name="phone"
+                                                            value={formData.phone}
+                                                            onChange={handleChange}
+                                                            placeholder="Your phone number"
+                                                        />
                                                     </div>
                                                 </div>
+
                                                 <div className="col-md-6">
                                                     <div className="form-group">
-                                                        <input className="form-control" type="text" placeholder="Height" />
+                                                        <input
+                                                            className="form-control"
+                                                            name="subject"
+                                                            value={formData.subject}
+                                                            onChange={handleChange}
+                                                            placeholder="Subject"
+                                                        />
                                                     </div>
                                                 </div>
+
                                                 <div className="col-md-12">
                                                     <div className="form-group">
-                                                        <textarea className="form-control" placeholder="Message / Note" rows={5} defaultValue={""} />
+                                                        <textarea
+                                                            className="form-control"
+                                                            name="message"
+                                                            rows={5}
+                                                            value={formData.message}
+                                                            onChange={handleChange}
+                                                            placeholder="Message / Note"
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
+
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <button
+                                                        type="submit"
+                                                        className="btn btn-brand-1-big"
+                                                        disabled={status.loading}
+                                                    >
+                                                        {status.loading ? "Sending..." : "Submit Now"}
+                                                    </button>
+
+                                                    {status.success && (
+                                                        <p className="text-success mt-3">
+                                                            {status.success}
+                                                        </p>
+                                                    )}
+
+                                                    {status.error && (
+                                                        <p className="text-danger mt-3">
+                                                            {status.error}
+                                                        </p>
+                                                    )}
                                                 </div>
+
                                             </div>
                                         </form>
                                     </div>
                                 </div>
+
+                                {/* MAP + INFO — unchanged */}
                                 <div className="col-lg-7 mb-30">
                                     <div className="d-flex box-newsletter-right">
                                         <div className="box-map-2 wow animate__animated animate__fadeIn">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.960389549842!2d-83.76408938441998!3d37.15364135542302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884352a00e70879f%3A0x1ad06ed33b7003c!2sIangar!5e0!3m2!1svi!2s!4v1678013229780!5m2!1svi!2s" height={242} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7547.752406152937!2d72.8388177!3d18.936873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1004e548b59%3A0x607350820bd23b03!2s277%20Hansraj%20Damodar%20Building!5e0!3m2!1sen!2sin!4v1769074450120!5m2!1sen!2sin"
+                                                height={242}
+                                                style={{ border: 0 }}
+                                                allowFullScreen
+                                                loading="lazy"
+                                                referrerPolicy="no-referrer-when-downgrade"
+                                            />
                                         </div>
+
                                         <ul className="list-info-footer">
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                            <li>
+                                                <div className="cardImage">
+                                                    <span className="icon-brand-1">
+                                                        <img src="/assets/imgs/page/homepage2/address.svg" alt="address" />
+                                                    </span>
+                                                </div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
-                                                    <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
+                                                    <p className="font-sm color-grey-900">
+                                                        Room 29, 2nd Floor, Hansraj Damodar Building,
+                                                        277 S.B.S Road, Fort, Mumbai 400001
+                                                    </p>
                                                 </div>
                                             </li>
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+
+                                            <li>
+                                                <div className="cardImage">
+                                                    <span className="icon-brand-1">
+                                                        <img src="/assets/imgs/page/homepage2/email.svg" alt="email" />
+                                                    </span>
+                                                </div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">
+                                                        sanjaymishra5984@gmail.com
+                                                    </p>
                                                 </div>
                                             </li>
-                                            <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+
+                                            <li>
+                                                <div className="cardImage">
+                                                    <span className="icon-brand-1">
+                                                        <img src="/assets/imgs/page/homepage2/phone.svg" alt="phone" />
+                                                    </span>
+                                                </div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-grey-900">
+                                                        +91 98672 05984 · 022-6660 7090
+                                                    </p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </Layout>
+
+            </Layout >
         </>
     )
 }

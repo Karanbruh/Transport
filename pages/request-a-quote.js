@@ -150,7 +150,7 @@ export default function Quote() {
                                         <h6 className="color-brand-2 mb-15">Transp Shipping Co. USA</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>123 Main Street, Suite 500, New York, NY 10001, USA</p>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+1-555-555-5555</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact@transp.eu.com</p>
+                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@ export default function Quote() {
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Middle East</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Dubai Logistics City, Building B, Office 203, Dubai, UAE</p>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+971 4 887 8000</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact@transp.eu.com</p>
+                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
                             </div>

@@ -21,7 +21,7 @@ export default function Home2() {
                 <Info3 />
                 <Pricing2 />
                 <div className="line-border"></div>
-                <Team1 />
+                {/* <Team1 /> */}
                 <Brands1 />
                 <Testimonial2 />
                 <Info4 />

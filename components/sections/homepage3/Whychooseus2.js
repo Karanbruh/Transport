@@ -21,14 +21,14 @@ export default function Whychooseus2() {
                                 <div className="col-sm-6">
                                     <div className="box-item-number box-item-number-white mb-30">
                                         <div className="item-number">
-                                            <h2 className="color-brand-1"><span className="counterUp count">365</span></h2>
+                                            <h2 className="color-brand-1"><span className="counterUp count">165</span></h2>
                                             <h6 className="color-brand-1">Delivered package.</h6>
                                         </div>
                                     </div>
                                     <div className="box-item-number box-item-number-2 mb-30">
                                         <div className="item-number">
                                             <h2 className="color-white"><span className="counterUp count">
-                                                174</span></h2>
+                                                90</span></h2>
                                             <h6 className="color-white">Countries covered</h6>
                                         </div>
                                     </div>
@@ -36,13 +36,13 @@ export default function Whychooseus2() {
                                 <div className="col-sm-6">
                                     <div className="box-item-number box-item-number-3 mt-30 mb-30">
                                         <div className="item-number">
-                                            <h2 className="color-white"><span className="counterUp count">627</span></h2>
+                                            <h2 className="color-white"><span className="counterUp count">60</span></h2>
                                             <h6 className="color-white">Satisfied Clients</h6>
                                         </div>
                                     </div>
                                     <div className="box-item-number box-item-number-4 mb-30">
                                         <div className="item-number">
-                                            <h2 className="color-white"><span className="counterUp count">354</span></h2>
+                                            <h2 className="color-white"><span className="counterUp count">500</span></h2>
                                             <h6 className="color-white">Tons of goods</h6>
                                         </div>
                                     </div>

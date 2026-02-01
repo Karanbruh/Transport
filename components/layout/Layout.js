@@ -7,6 +7,7 @@ import Header2 from './Header2'
 import HeaderNewsletter from "./HeaderNewsletter"
 import PageHead from './PageHead'
 import Sidebar from './Sidebar'
+import WhatsAppButton from "../elements/WhatsAppButton"
 
 export default function Layout({ headerStyle, footerStyle, headTitle, children, topBarStyle }) {
     const [scroll, setScroll] = useState(0)
@@ -59,6 +60,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, children, 
             {footerStyle == "newsletter" && <FooterNewsletter />}
 
             <BackToTop />
+            <WhatsAppButton />
         </>
     )
 }

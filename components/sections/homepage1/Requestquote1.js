@@ -39,7 +39,7 @@ export default function Requestquote1() {
                             <div className="cardLeadingCompany">
                                 <div className="cardImage"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/handover.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="counterUp">{inViewport && <CountUp end={254} duration={10} />}</span></h3>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="counterUp">{inViewport && <CountUp end={170} duration={10} />}</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Parcels Shipped
                                         Safely</p>
                                 </div>
@@ -49,7 +49,7 @@ export default function Requestquote1() {
                             <div className="cardLeadingCompany">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/cities.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={457} duration={10} />}</span></h3>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Cities Served
                                         Worldwide</p>
                                 </div>
@@ -59,7 +59,7 @@ export default function Requestquote1() {
                             <div className="cardLeadingCompany">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/client.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={384} duration={10} />}</span></h3>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Satisfied Clients
                                     </p>
                                 </div>
@@ -69,7 +69,7 @@ export default function Requestquote1() {
                             <div className="cardLeadingCompany">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/company.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={483} duration={10} />}</span></h3>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Company We Help</p>
                                 </div>
                             </div>

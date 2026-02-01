@@ -60,7 +60,7 @@ export default function Hero3() {
                                         <div className="item-feature">
                                             <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="transp" /></div>
                                             <div className="info-feature">
-                                                <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={345} duration={10} />}</span></h4>
+                                                <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h4>
                                                 <p className="font-sm color-grey-700">Cities Worldwide</p>
                                             </div>
                                         </div>
@@ -69,7 +69,7 @@ export default function Hero3() {
                                         <div className="item-feature">
                                             <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="transp" /></div>
                                             <div className="info-feature">
-                                                <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={254} duration={10} />}</span></h4>
+                                                <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h4>
                                                 <p className="font-sm color-grey-700">Satisfied Clients</p>
                                             </div>
                                         </div>

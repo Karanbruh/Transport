@@ -8,22 +8,22 @@ export default function Whychooseus1() {
     const handleScroll = () => {
         const elements = document.getElementsByClassName('counterUp');
         if (elements.length > 0) {
-        const element = elements[0];
-        const rect = element.getBoundingClientRect();
-        const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-        if (isInViewport && !inViewport) {
-            setInViewport(true);
-        }
+            const element = elements[0];
+            const rect = element.getBoundingClientRect();
+            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+            if (isInViewport && !inViewport) {
+                setInViewport(true);
+            }
         }
     }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
     return (
         <>
             <section className="section mt-100">
@@ -52,15 +52,15 @@ export default function Whychooseus1() {
                                     <div className="col-lg-6">
                                         <div className="cardWhyChooseUs mb-60">
                                             <h2 className="color-brand-2"><span>+</span><span className="count counterUp">
-                                                {inViewport && <CountUp end={346} duration={10} />}
-                                                </span></h2>
+                                                {inViewport && <CountUp end={165} duration={10} />}
+                                            </span></h2>
                                             <h5 className="color-brand-2 mb-20">Delivered packages.</h5>
                                             <p className="font-md color-grey-700">We strongly support best practice sharing
                                                 across our operations around the world and across various industrial
                                                 sectors.</p>
                                         </div>
                                         <div className="cardWhyChooseUs mb-30">
-                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={564} duration={10} />}</span></h2>
+                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h2>
                                             <h5 className="color-brand-2 mb-20">Satisfied Clients</h5>
                                             <p className="font-md color-grey-700">We strongly support best practice sharing
                                                 across our operations around the world and across various industrial
@@ -69,14 +69,14 @@ export default function Whychooseus1() {
                                     </div>
                                     <div className="col-lg-6 mb-60 mt-50">
                                         <div className="cardWhyChooseUs mb-60">
-                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={179} duration={10} />}</span></h2>
+                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={90} duration={10} />}</span></h2>
                                             <h5 className="color-brand-2 mb-20">Countries covered</h5>
                                             <p className="font-md color-grey-700">We strongly support best practice sharing
                                                 across our operations around the world and across various industrial
                                                 sectors.</p>
                                         </div>
                                         <div className="cardWhyChooseUs mb-30">
-                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={355} duration={10} />}</span></h2>
+                                            <h2 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span></h2>
                                             <h5 className="color-brand-2 mb-20">Tons of goods</h5>
                                             <p className="font-md color-grey-700">We strongly support best practice sharing
                                                 across our operations around the world and across various industrial

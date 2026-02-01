@@ -1,5 +1,6 @@
 .box-background-offer {
     position: relative;
+
     .bg-under {
         position: absolute;
         bottom: -30px;
@@ -8,6 +9,7 @@
         right: -100px;
         background: url(../imgs/page/homepage1/bg-offer.png) no-repeat top center;
         z-index: 1;
+
         &::before {
             content: "";
             position: absolute;
@@ -19,18 +21,22 @@
             z-index: 1;
         }
     }
+
     .row {
         z-index: 2;
         position: relative;
     }
 }
+
 .box-images {
     position: relative;
     padding: 20px;
+
     img {
         z-index: 2;
         position: relative;
     }
+
     &::before {
         content: "";
         width: 100%;
@@ -44,6 +50,7 @@
         background-size: contain;
     }
 }
+
 .image-2 {
     position: absolute;
     bottom: 120px;
