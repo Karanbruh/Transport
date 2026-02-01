@@ -75,8 +75,8 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className="color-grey-300 font-md">©Transp Official {new Date().getFullYear()}. All right reversed.</span></div>
-                                <div className="col-lg-6 col-md-12 text-center text-lg-end">
+                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className="color-grey-300 font-md">Durga Shipping {new Date().getFullYear()}. All right reversed.</span></div>
+                                {/* <div className="col-lg-6 col-md-12 text-center text-lg-end">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-sm color-grey-300" href="/term-conditions">Privacy policy</Link>
                                         </li>
@@ -84,7 +84,7 @@ export default function Footer1({ }) {
                                         <li><Link className="font-sm color-grey-300" href="/term-conditions">Terms of service</Link>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
