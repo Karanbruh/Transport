@@ -70,7 +70,7 @@ export default function Newsletter1() {
                                             </div>
                                             <div className="cardInfo">
                                                 <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07
+                                                <p className="font-sm color-grey-900">+91 9920074133
                                                 </p>
                                             </div>
                                         </li>

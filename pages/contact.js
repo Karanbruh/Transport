@@ -118,12 +118,12 @@ export default function Contact() {
                                 <div className="col-xl-4 col-lg-5 position-relative">
                                     <div className="box-contactform-right">
                                         <h5 className="color-brand-2 mb-35 wow animate__animated animate__fadeIn">Headquarters</h5>
-                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.svg" alt="transp" />
+                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="transp" />
                                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">4517 Washington Ave. Manchester, Kentucky 39495</p>
                                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                                </svg>Phone: +022-6660 7090
+                                                </svg>Phone: +91 9920074133
                                             </p>
                                             <p className="color-grey-700 mb-30 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -151,14 +151,14 @@ export default function Contact() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
                                 </svg>Get a quote</Link></div> */}
                         </div>
-                        <div className="row mt-50">
+                        <div className="row mt-50 contact-branches-row">
                             <div className="col-xl-3 col-md-6 mb-50">
                                 <div className="cardService">
                                     <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch1.png" alt="transp" /></div>
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Mumbai</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Room 29, 2nd Floor, Hansraj Damodar Bldg, 277 SBS Road, Fort, Mumbai 400001</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 98672 05984</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@ export default function Contact() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Uttar Pradesh</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Transport Agency Opposite Land Customs Station Bldg. Sonauli, Mehrajganj</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 98672 05984</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@ export default function Contact() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Asia Pacific</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>1-2-1 Otemachi, Chiyoda-ku, Tokyo, Japan</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+81 3 5251 5300</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact.jp@transp.eu.com</p>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ export default function Contact() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Middle East</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Dubai Logistics City, Building B, Office 203, Dubai, UAE</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+971 4 887 8000</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
@@ -508,7 +508,7 @@ export default function Contact() {
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">+91 98672 05984 - +022-66607090</p>
+                                                    <p className="font-sm color-grey-900">+91 9920074133</p>
                                                 </div>
                                             </li>
                                         </ul>

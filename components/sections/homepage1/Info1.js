@@ -12,52 +12,48 @@ export default function Info1() {
                             workforce<br className="d-none d-lg-block" />and have worked hard.</h2>
                     </div>
                     <div className="row mt-50 align-items-center">
-                        <div className="col-xl-7 col-lg-6 mb-30">
+                        <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="box-images-pround">
                                 <div className="box-images wow animate__animated animate__fadeIn"><img className="img-main" src="/assets/imgs/page/homepage1/img1.png" alt="transp" />
                                     <div className="image-2 shape-3"><img src="/assets/imgs/page/homepage1/icon1.png" alt="transp" /></div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-6 mb-30">
+                        <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="box-info-pround">
-                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Fast shipping with the
-                                    most modern technology</h3>
-                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Over the years, we
-                                    have worked together to expand our network of partners to deliver reliability and
-                                    consistency. We’ve also made significant strides to tightly integrate technology with
-                                    our processes, giving our clients greater visibility into every engagement.</p>
+                                <h3 className="color-brand-2 mb-15 wow animate__animated animate__fadeIn">Seamless Clearance &amp; End-to-End Logistics</h3>
+                                <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">For over 30 years, we have expanded our global network and strengthened our relationships with customs authorities to deliver unmatched reliability. We combine our on-ground expertise with highly efficient forwarding processes, giving our clients total peace of mind and complete visibility over their cargo from port to final destination.</p>
                                 <div className="mt-30">
                                     <ul className="list-ticks">
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task tracking
+                                            </svg>Govt. Authorized Broker
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Create task dependencies
+                                            </svg>Accelerated Cargo Clearance
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task visualization
+                                            </svg>Global Freight Forwarding
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>hare files, discuss
+                                            </svg>Expert Duty &amp; Tax Advisory
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Meet deadlines faster
+                                            </svg>Dedicated On-Ground Liaisons
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Track time spent on each project
+                                            </svg>Secure Surface Transport
                                         </li>
                                     </ul>
                                 </div>

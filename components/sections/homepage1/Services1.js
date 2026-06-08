@@ -19,8 +19,8 @@ export default function Services1() {
                     </div>
                     <div className="mt-20 box-background-offer">
                         {/* <div className="bg-under" /> */}
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                        <div className="row offer-cards-row">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/importexport.png" alt="transp" /></div>
                                     <div className="card-info">
@@ -33,8 +33,8 @@ export default function Services1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up" style={{ height: "385px" }}>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
+                                <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/tax.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
@@ -47,8 +47,8 @@ export default function Services1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                <div className="card-offer hover-up" style={{ height: "385px" }}>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
+                                <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/customs.png" alt="transp" />
                                     </div>
                                     <div className="card-info">
@@ -62,7 +62,7 @@ export default function Services1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/authorities.png" alt="transp" />
                                     </div>
@@ -76,7 +76,7 @@ export default function Services1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
                                     <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo.png" alt="transp" />
                                     </div>

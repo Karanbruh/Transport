@@ -233,6 +233,10 @@
     }
     .box-info-pround {
         padding: 0px 0px 0px 0px;
+
+        .list-ticks li {
+            white-space: normal;
+        }
     }
     .image-2 {
         bottom: 50px;

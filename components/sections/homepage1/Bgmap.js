@@ -1,4 +1,6 @@
 
+import { PHONE_DISPLAY, PHONE_TEL } from "@/lib/contact";
+
 export default function Bgmap() {
     return (
         <>
@@ -6,13 +8,13 @@ export default function Bgmap() {
                 <div className="container">
                     <div className="box-map">
                         <iframe className="wow animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7547.752406152937!2d72.8388177!3d18.936873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1004e548b59%3A0x607350820bd23b03!2s277%20Hansraj%20Damodar%20Building!5e0!3m2!1sen!2sin!4v1769074450120!5m2!1sen!2sin" height={420} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.svg" alt="transp" />
+                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="transp" />
                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">Room 29, 2nd Floor, Hansraj Damodar Bldg, 277 SBS Road, Fort, Mumbai 400001</p>
                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z">
                                     </path>
-                                </svg>Phone: +022-6660 7090
+                                </svg><a href={`tel:${PHONE_TEL}`}>Phone: {PHONE_DISPLAY}</a>
                             </p>
                             <p className="color-grey-700 mb-30 wow animate__animated animate__fadeIn">
                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

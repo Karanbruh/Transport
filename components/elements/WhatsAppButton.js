@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { PHONE_WHATSAPP } from "@/lib/contact"
 
 export default function WhatsAppButton() {
   // const [show, setShow] = useState(false)
@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/9819370334?text=Hello👋"
+      href={`https://wa.me/${PHONE_WHATSAPP}?text=Hello`}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float"

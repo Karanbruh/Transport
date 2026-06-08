@@ -32,21 +32,21 @@ export default function About() {
                                     complex world of Indian Customs so you don't have to.
                                 </p>
                                 <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                    Led by Mr. Sanjay Mishra, we have earned our reputation as one of the best brokers in
+                                    Led by Mr. Rajesh Mishra, we have earned our reputation as one of the best brokers in
                                     India by doing one thing: keeping our promises.
                                 </p>
                             </div>
-                            <div className="col-lg-6 position-relative mb-30">
-                                <div className="row align-items-end">
-                                    <div className="col-lg-5 col-md-5 col-sm-5">
-                                        <img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="Durga Shipping" />
-                                        <img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="Durga Shipping" />
-                                    </div>
-                                    <div className="col-lg-7 col-md-7 col-sm-7">
-                                        <img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="Durga Shipping" />
-                                    </div>
+                            <div className="col-lg-6 mb-30 text-center text-lg-end">
+                                <div className="d-inline-block wow animate__animated animate__fadeIn">
+                                    <img
+                                        className="rounded-3"
+                                        src="/assets/imgs/page/about/founder-rajesh-mishra.jpg"
+                                        alt="Mr. Sanjay Mishra, Founder"
+                                        style={{ maxWidth: "100%", width: "360px", objectFit: "cover" }}
+                                    />
+                                    <p className="font-md-bold color-brand-2 mt-20 mb-5">Mr. Sanjay Mishra</p>
+                                    <p className="font-sm color-grey-500">Founder, M/S. Durga Shipping and Transport Agency</p>
                                 </div>
-                                <div className="quote-center shape-2" />
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function About() {
                                         <li>Total Transparency: You always know where your shipment stands.</li>
                                     </ul>
                                     <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                        From our busy hub in Mumbai to our strategic outpost in Sonauli, we have the ground-level expertise to handle any challenge the logistics world throws at us.
+                                        From our strategic hub in Mumbai, we have the ground-level expertise to handle any challenge the logistics world throws at us across the country.
                                     </p>
                                 </div>
                             </div>
@@ -88,16 +88,16 @@ export default function About() {
                                     Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time
                                 </h3>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
-                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.
+                                    For over 30 years, M/S. Durga Shipping and Transport Agency has been the backbone for businesses moving goods in and out of India. As a fully licensed Government Authorized Custom Broker, we navigate the complex, ever-changing world of Indian Customs so you don&apos;t have to.
                                 </p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Ensure Strict Compliance</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">We proactively manage duty assessments and regulations to minimize delays and prevent costly penalties.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">End-to-End Solutions</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">From the port to your door, we provide seamless customs clearance, forwarding, and surface transport.</p>
                                     </div>
                                 </div>
                                 <div className="mt-20">

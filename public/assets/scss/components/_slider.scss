@@ -1,3 +1,29 @@
+.brand-logos-row {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    width          : 100%;
+
+    .brand-logo-item {
+        flex: 0 0 auto;
+
+        img {
+            max-height: 50px;
+            width     : auto;
+            object-fit: contain;
+            display   : block;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .brand-logos-row {
+        flex-direction : column;
+        justify-content: center;
+        gap            : 24px;
+    }
+}
+
 .box-swiper {
     position: relative;
     width   : 100%;

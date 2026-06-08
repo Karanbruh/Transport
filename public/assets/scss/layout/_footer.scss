@@ -152,6 +152,12 @@
         align-items: center;
         margin-bottom: 34px;
         margin-top: 10px;
+        .cardInfo {
+            p {
+                overflow-wrap: anywhere;
+                word-break: break-word;
+            }
+        }
         .cardImage {
             min-width: 57px;
             margin-right: 10px;
@@ -167,6 +173,16 @@
                     display: inline-block;
                     vertical-align: middle;
                 }
+            }
+        }
+    }
+}
+.contact-branches-row {
+    .cardService {
+        .cardInfo {
+            p {
+                overflow-wrap: anywhere;
+                word-break: break-word;
             }
         }
     }

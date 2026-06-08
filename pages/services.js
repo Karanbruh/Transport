@@ -103,45 +103,42 @@ export default function Service() {
                 </section>
                 <section className="section mt-0">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
-                                <div className="cardService">
+                        <div className="row services-cards-row">
+                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
+                                <div className="cardService h-100 w-100">
                                     <div className="cardImage"><img src="/assets/imgs/page/homepage3/service1.png" alt="transp" /></div>
                                     <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2">Custom Clearance (CHA)</h6>
                                         <p className="font-xs color-grey-900">
-                                            As a licensed Custom House Agent, we handle duty assessments, HS codes,
-                                            and all documentation to ensure fast and compliant customs clearance.
+                                            As a licensed Custom House Agent, we manage the legal side of your trade. We handle duty assessments, HS codes, and all paperwork for smooth, legal clearance.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
-                                <div className="cardService">
+                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
+                                <div className="cardService h-100 w-100">
                                     <div className="cardImage"><img src="/assets/imgs/page/homepage3/service2.png" alt="transp" /></div>
                                     <div className="cardInfo"><img src="/assets/imgs/page/homepage3/plane.png" alt="transp" />
                                         <h6 className="color-brand-2">Air &amp; Sea Cargo</h6>
                                         <p className="font-xs color-grey-900">
-                                            From JNPT seaports to international air cargo terminals, we manage FCL,
-                                            LCL, and urgent air freight with quick release and dispatch.
+                                            From Mumbai&apos;s busy docks (JNPT) to international air terminals, we get your shipments released immediately. We expertly handle FCL, LCL, and urgent air freight.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
-                                <div className="cardService">
+                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
+                                <div className="cardService h-100 w-100">
                                     <div className="cardImage"><img src="/assets/imgs/page/homepage3/service3.png" alt="transp" /></div>
                                     <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2">Freight Forwarding</h6>
                                         <p className="font-xs color-grey-900">
-                                            We negotiate directly with shipping lines and airlines to secure optimal
-                                            routes and the most competitive global freight rates.
+                                            Need to ship globally? We negotiate directly with shipping lines and airlines to secure optimal routes and the most competitive rates for your business.
                                         </p>
                                     </div>
                                 </div >
                             </div >
-                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
-                                <div className="cardService">
+                            <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
+                                <div className="cardService h-100 w-100">
                                     <div className="cardImage"><img src="/assets/imgs/page/homepage3/service4.png" alt="transp" /></div>
                                     <div className="cardInfo"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
                                         <h6 className="color-brand-2">Land Transport</h6>
@@ -185,15 +182,15 @@ export default function Service() {
                         <div className="row align-items-center">
                             <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time</h3>
-                                <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                                <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">For over 30 years, M/S. Durga Shipping and Transport Agency has been the backbone for businesses moving goods in and out of India. As a fully licensed Government Authorized Custom Broker, we navigate the complex, ever-changing world of Indian Customs so you don&apos;t have to.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Ensure Strict Compliance</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">We proactively manage duty assessments and regulations to minimize delays and prevent costly penalties.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">End-to-End Solutions</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">From the port to your door, we provide seamless customs clearance, forwarding, and surface transport.</p>
                                     </div>
                                 </div>
                                 <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
@@ -213,42 +210,41 @@ export default function Service() {
                 </section>
                 <section className="section pt-60 pb-65 bg-whychooseus-2">
                     <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-1" />
-                            <div className="col-lg-5 mb-30"><img className="mb-20" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                                <h2 className="color-white mb-50 wow animate__animated animate__fadeIn">We take care about<span className="color-brand-1">transportation</span>for your business</h2>
+                        <div className="row align-items-center whychooseus-stats-layout">
+                            <div className="col-lg-6 mb-30 whychooseus-stats-text"><img className="mb-20" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                                <h2 className="color-white mb-20 wow animate__animated animate__fadeIn">We take care about <span className="color-brand-1"> transportation </span> for your business</h2>
                                 {/* <Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="#">
                                     <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                                     </svg>View All Projects</Link> */}
                             </div>
-                            <div className="col-lg-5 mb-30">
+                            <div className="col-lg-6 mb-30 whychooseus-stats-grid">
                                 <div className="row">
                                     <div className="col-sm-6">
                                         <div className="box-item-number box-item-number-white mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-brand-1"><span className="counterUp count">{inViewport && <CountUp end={165} duration={10} />}</span></h2>
-                                                <h6 className="color-brand-1">Delivered packages.</h6>
+                                                <h2 className="color-brand-1"><span className="counterUp count">{inViewport && <CountUp end={40000} duration={10} />}</span><span>+</span></h2>
+                                                <h6 className="color-brand-1">Parcels shipped</h6>
                                             </div>
                                         </div>
                                         <div className="box-item-number box-item-number-2 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h2>
-                                                <h6 className="color-white">Countries covered</h6>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={10} duration={10} />}</span><span>+</span></h2>
+                                                <h6 className="color-white">Countries served</h6>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="box-item-number box-item-number-3 mt-30 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h2>
-                                                <h6 className="color-white">Satisfied Clients</h6>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span><span>+</span></h2>
+                                                <h6 className="color-white">Satisfied clients</h6>
                                             </div>
                                         </div>
                                         <div className="box-item-number box-item-number-4 mb-30">
                                             <div className="item-number">
-                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span></h2>
-                                                <h6 className="color-white">Tons of goods</h6>
+                                                <h2 className="color-white"><span className="count">{inViewport && <CountUp end={300} duration={10} />}</span></h2>
+                                                <h6 className="color-white">Companies served</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -593,7 +589,7 @@ export default function Service() {
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">
-                                                        +91 98672 05984 · 022-6660 7090
+                                                        +91 9920074133
                                                     </p>
                                                 </div>
                                             </li>

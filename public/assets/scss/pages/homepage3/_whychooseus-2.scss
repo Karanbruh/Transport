@@ -17,6 +17,36 @@
         position: relative;
         z-index: 2;
     }
+
+    h2 {
+        line-height: 1.35;
+    }
+}
+
+.whychooseus-stats-layout {
+    .whychooseus-stats-text {
+        padding-right: 40px;
+
+        h2 {
+            max-width: 520px;
+        }
+    }
+
+    .whychooseus-stats-grid {
+        padding-left: 10px;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .whychooseus-stats-layout {
+        .whychooseus-stats-text {
+            padding-right: 15px;
+        }
+
+        .whychooseus-stats-grid {
+            padding-left: 0;
+        }
+    }
 }
 .box-item-number {
     position: relative;
@@ -43,7 +73,7 @@
     &.box-item-number-2 {
         position: relative;
         padding: 35px 5px 35px 35px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     &.box-item-number-3 {
         position: relative;
@@ -52,6 +82,6 @@
     &.box-item-number-4 {
         position: relative;
         padding: 35px 5px 35px 60px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 }

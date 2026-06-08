@@ -49,7 +49,7 @@ export default function CountUp({ end, duration }) {
 
   return (
     <span ref={countRef}>
-      <span>{Math.round(count)}</span>
+      <span>{Math.round(count).toLocaleString()}</span>
     </span>
   )
 }

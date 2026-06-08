@@ -149,7 +149,7 @@ export default function Quote() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Transp Shipping Co. USA</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>123 Main Street, Suite 500, New York, NY 10001, USA</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+1-555-555-5555</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
@@ -160,7 +160,7 @@ export default function Quote() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Europe</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>25 Avenue des Champs-Élysées, Paris, France</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+33 1 55 73 70 00</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact.eu@transp.eu.com</p>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@ export default function Quote() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Asia Pacific</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>1-2-1 Otemachi, Chiyoda-ku, Tokyo, Japan</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+81 3 5251 5300</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact.jp@transp.eu.com</p>
                                     </div>
                                 </div>
@@ -182,7 +182,7 @@ export default function Quote() {
                                     <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Middle East</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Dubai Logistics City, Building B, Office 203, Dubai, UAE</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+971 4 887 8000</p>
+                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
                                         <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
                                     </div>
                                 </div>
@@ -341,7 +341,7 @@ export default function Quote() {
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-grey-900">+91 9920074133</p>
                                                 </div>
                                             </li>
                                         </ul>

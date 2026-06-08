@@ -134,12 +134,12 @@ export default function Faq() {
                                 <div className="col-xl-4 col-lg-5 position-relative">
                                     <div className="box-contactform-right">
                                         <h5 className="color-brand-2 mb-35 wow animate__animated animate__fadeIn">Headquarters</h5>
-                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.svg" alt="transp" />
+                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="transp" />
                                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">4517 Washington Ave. Manchester, Kentucky 39495</p>
                                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                                </svg>Phone: +022-6660 7090
+                                                </svg>Phone: +91 9920074133
                                             </p>
                                             <p className="color-grey-700 mb-30 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -161,15 +161,15 @@ export default function Faq() {
                         <div className="row align-items-center">
                             <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time</h3>
-                                <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                                <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">For over 30 years, M/S. Durga Shipping and Transport Agency has been the backbone for businesses moving goods in and out of India. As a fully licensed Government Authorized Custom Broker, we navigate the complex, ever-changing world of Indian Customs so you don&apos;t have to.</p>
                                 <div className="row">
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Boost your sale</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Ensure Strict Compliance</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">We proactively manage duty assessments and regulations to minimize delays and prevent costly penalties.</p>
                                     </div>
                                     <div className="col-lg-6 mb-30">
-                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Introducing New Features</h6>
-                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                        <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">End-to-End Solutions</h6>
+                                        <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">From the port to your door, we provide seamless customs clearance, forwarding, and surface transport.</p>
                                     </div>
                                 </div>
                                 <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
@@ -252,7 +252,7 @@ export default function Faq() {
                                                 <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
-                                                    <p className="font-sm color-grey-900">(+380) 50 318 47 07 - (+182) 50 318 47 07</p>
+                                                    <p className="font-sm color-grey-900">+91 9920074133</p>
                                                 </div>
                                             </li>
                                         </ul>

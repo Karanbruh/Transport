@@ -26,51 +26,48 @@ export default function Requestquote1() {
 
     return (
         <>
-            <section className="section bg-leading-company pt-95">
+            <section className="section bg-leading-company pt-80 pb-20">
                 <div className="box-bg-leading" />
                 <div className="container">
-                    <div className="text-center mb-45">
+                    <div className="text-center mb-35">
                         <h2 className="color-brand-1 mb-15 wow animate__animated animate__fadeIn">World’s Leading Companies<br className="d-none d-lg-block" />For Over 80 Years.</h2>
                         <p className="font-md color-white wow animate__animated animate__fadeIn">A big opportunity for your
                             business growth. Delivering Results for Industry Leaders. We are<br className="d-none d-lg-block" />proud of our workfor and have worked hard.</p>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="cardLeadingCompany">
+                    <div className="row stats-cards-row">
+                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
+                            <div className="cardLeadingCompany h-100 w-100">
                                 <div className="cardImage"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/handover.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="counterUp">{inViewport && <CountUp end={170} duration={10} />}</span></h3>
-                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Parcels Shipped
-                                        Safely</p>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="counterUp">{inViewport && <CountUp end={40000} duration={10} />}</span></h3>
+                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Parcels shipped</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="cardLeadingCompany">
+                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
+                            <div className="cardLeadingCompany h-100 w-100">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/cities.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h3>
-                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Cities Served
-                                        Worldwide</p>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={10} duration={10} />}</span><span>+</span></h3>
+                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Countries served</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="cardLeadingCompany">
+                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
+                            <div className="cardLeadingCompany h-100 w-100">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/client.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h3>
-                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Satisfied Clients
-                                    </p>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span><span>+</span></h3>
+                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Clients satisfied</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="cardLeadingCompany">
+                        <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
+                            <div className="cardLeadingCompany h-100 w-100">
                                 <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/company.png" alt="transp" /></span></div>
                                 <div className="cardInfo">
-                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h3>
-                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Company We Help</p>
+                                    <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={300} duration={10} />}</span><span>+</span></h3>
+                                    <p className="font-lg color-white wow animate__animated animate__fadeIn">Companies we have helped</p>
                                 </div>
                             </div>
                         </div>

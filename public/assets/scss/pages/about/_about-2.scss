@@ -5,7 +5,10 @@
             padding-left: calc(var(--bs-gutter-x)/ 2);
         }
         img {
-            display: block;
+            display   : block;
+            width     : 100%;
+            height    : auto;
+            object-fit: cover;
         }
     }
     &.item-about-2-revert {
@@ -15,7 +18,10 @@
                 padding-left: 0;
             }
             img {
-                display: block;
+                display   : block;
+                width     : 100%;
+                height    : auto;
+                object-fit: cover;
             }
         }
     }

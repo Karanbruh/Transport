@@ -1,6 +1,19 @@
 
 .box-info-pround {
     padding: 0px 0px 0px 40px;
+
+    .list-ticks {
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+
+        li {
+            width        : 100%;
+            white-space  : nowrap;
+            margin-bottom: 12px;
+            overflow     : visible;
+        }
+    }
 }
 .box-image-touch {
     position: absolute;
