@@ -6241,7 +6241,7 @@ textarea.form-control {
 .btn-founder-video-sound {
   position: absolute;
   bottom: 24px;
-  left: 24px;
+  right: 24px;
   z-index: 4;
   display: inline-flex;
   align-items: center;
@@ -7963,7 +7963,7 @@ a.color-brand-2:hover {
   }
   .btn-founder-video-sound {
     bottom: 14px;
-    left: 14px;
+    right: 14px;
     padding: 8px 12px;
     font-size: 12px;
   }
