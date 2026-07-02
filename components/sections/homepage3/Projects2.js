@@ -5,7 +5,7 @@ export default function Projects2() {
         <>
             <section className="section pb-5 pt-110">
                 <div className="container">
-                    <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                    <div className="text-center"><img className="mb-15 brand-section-logo" src="/assets/imgs/template/logo.png" alt="Durga Shipping" />
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Delivering Results for
                             Industry Leaders</p>
                         <h2 className="color-brand-2 mb-65 mt-15 wow animate__animated animate__fadeIn">Our latest completed

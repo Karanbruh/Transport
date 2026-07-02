@@ -13,11 +13,11 @@ export default function Faqs1() {
                                 <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling
                                     inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                                 <div className="box-gallery-faqs">
-                                    <div className="image-top"><img src="/assets/imgs/page/homepage1/img-faq1.png" alt="transp" />
+                                    <div className="image-top"><img src="/assets/imgs/page/homepage1/img-faq1.png" alt="Durga Shipping" />
                                     </div>
                                     <div className="image-bottom">
-                                        <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="transp" /></div>
-                                        <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="transp" /></div>
+                                        <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="Durga Shipping" /></div>
+                                        <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="Durga Shipping" /></div>
                                     </div>
                                 </div>
                             </div>

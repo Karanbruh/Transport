@@ -102,35 +102,35 @@ export default function Requestquote3() {
                         <div className="col-lg-6">
                             <ul className="list-how-works">
                                 <li className="wow animate__animated animate__fadeIn">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2">Customer places order</h5>
                                         <p className="font-md color-grey-700">Inspection and quality check of goods</p>
                                     </div>
                                 </li>
                                 <li className="wow animate__animated animate__fadeIn">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2">Payment successful</h5>
                                         <p className="font-md color-grey-700">Payoneer, Paypal, or Visa master card</p>
                                     </div>
                                 </li>
                                 <li className="wow animate__animated animate__fadeIn">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2">Warehouse receives order</h5>
                                         <p className="font-md color-grey-700">Check the accuracy of the goods.</p>
                                     </div>
                                 </li>
                                 <li className="wow animate__animated animate__fadeIn">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2">Item picked, packed &amp; shipped</h5>
                                         <p className="font-md color-grey-700">Ship the goods to a local carrier</p>
                                     </div>
                                 </li>
                                 <li className="wow animate__animated animate__fadeIn">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2">Delivered &amp; Measure success</h5>
                                         <p className="font-md color-grey-700">Update order status on the system</p>

@@ -16,7 +16,7 @@ export default function Team1() {
                     <div className="row mt-50">
                         <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardTeam">
-                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="Durga Shipping" /></div>
                                 <div className="cardInfo">
                                     <h6 className="color-brand-2">Devon Lane</h6>
                                     <div className="info-bottom">
@@ -38,7 +38,7 @@ export default function Team1() {
                         </div>
                         <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardTeam">
-                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="Durga Shipping" /></div>
                                 <div className="cardInfo">
                                     <h6 className="color-brand-2">Lori Stevens</h6>
                                     <div className="info-bottom">
@@ -60,7 +60,7 @@ export default function Team1() {
                         </div>
                         <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardTeam">
-                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="Durga Shipping" /></div>
                                 <div className="cardInfo">
                                     <h6 className="color-brand-2">Devon Lane</h6>
                                     <div className="info-bottom">
@@ -82,7 +82,7 @@ export default function Team1() {
                         </div>
                         <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardTeam">
-                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="Durga Shipping" /></div>
                                 <div className="cardInfo">
                                     <h6 className="color-brand-2">Devon Lane</h6>
                                     <div className="info-bottom">

@@ -14,7 +14,7 @@ export default function Testimonial4() {
                                 spend.</p>
                             <div className="box-testimonial-4-item">
                                 <div className="card-testimonial-grid">
-                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Courtney
                                             Henry</span></Link><span className="font-sm color-grey-500 department">Bank of
                                                 America</span></div>
@@ -23,14 +23,14 @@ export default function Testimonial4() {
                                         views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list. a
                                         kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
                                     <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><br /><span className="font-sm color-white">For customer
                                             support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="box-img-testimonials-4"><img src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="transp" />
+                            <div className="box-img-testimonials-4"><img src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="Durga Shipping" />
                                 <div className="box-info-testimonial-4">
                                     <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Satisfied</h3>
                                     <p className="font-sm color-grey-900 wow animate__animated animate__fadeIn">We always strive

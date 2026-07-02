@@ -82,7 +82,7 @@ export default function Info4() {
                             </div>
                             <div className="col-xl-5 col-lg-5 mb-30">
                                 <div className="box-images-info-4">
-                                    <div className="box-images-inner"><img className="img-main" src="/assets/imgs/page/homepage2/img-info-4.png" alt="transp" /></div>
+                                    <div className="box-images-inner"><img className="img-main" src="/assets/imgs/page/homepage2/img-info-4.png" alt="Durga Shipping" /></div>
                                 </div>
                             </div>
                         </div>

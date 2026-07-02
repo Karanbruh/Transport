@@ -16,7 +16,6 @@ export default function Testimonial1Slider() {
                 }}
                 pagination={{
                     clickable: true,
-                    el: '.swiper-pagination-banner'
                 }}
                 navigation={{
                     prevEl: ".swiper-button-prev-customers",

@@ -32,9 +32,13 @@
     position: relative;
     padding: 20px;
 
-    img {
+    img,
+    video {
         z-index: 2;
         position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     &::before {
@@ -48,6 +52,66 @@
         left: 0px;
         background: url(../imgs/page/homepage1/subtract.png) no-repeat center;
         background-size: contain;
+    }
+}
+
+.box-founder-video {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+    video {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+
+.btn-founder-video-sound {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 4;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: $color-brand-2;
+    color: $color-white;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(3, 68, 96, 0.25);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+    svg {
+        flex-shrink: 0;
+    }
+
+    &:hover {
+        background-color: $color-brand-1;
+        color: $color-brand-2;
+        transform: translateY(-1px);
+    }
+
+    &.is-muted {
+        animation: founder-video-pulse 2s ease-in-out infinite;
+    }
+}
+
+@keyframes founder-video-pulse {
+    0%,
+    100% {
+        box-shadow: 0 8px 18px rgba(3, 68, 96, 0.25);
+    }
+
+    50% {
+        box-shadow: 0 8px 22px rgba(3, 68, 96, 0.45);
     }
 }
 

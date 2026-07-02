@@ -106,8 +106,8 @@ export default function Service() {
                         <div className="row services-cards-row">
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
                                 <div className="cardService h-100 w-100">
-                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service1.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service1.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Custom Clearance (CHA)</h6>
                                         <p className="font-xs color-grey-900">
                                             As a licensed Custom House Agent, we manage the legal side of your trade. We handle duty assessments, HS codes, and all paperwork for smooth, legal clearance.
@@ -117,8 +117,8 @@ export default function Service() {
                             </div>
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
                                 <div className="cardService h-100 w-100">
-                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service2.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage3/plane.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service2.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage3/plane.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Air &amp; Sea Cargo</h6>
                                         <p className="font-xs color-grey-900">
                                             From Mumbai&apos;s busy docks (JNPT) to international air terminals, we get your shipments released immediately. We expertly handle FCL, LCL, and urgent air freight.
@@ -128,8 +128,8 @@ export default function Service() {
                             </div>
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
                                 <div className="cardService h-100 w-100">
-                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service3.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service3.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Freight Forwarding</h6>
                                         <p className="font-xs color-grey-900">
                                             Need to ship globally? We negotiate directly with shipping lines and airlines to secure optimal routes and the most competitive rates for your business.
@@ -139,8 +139,8 @@ export default function Service() {
                             </div >
                             <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn d-flex">
                                 <div className="cardService h-100 w-100">
-                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service4.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/homepage3/service4.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/train.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Land Transport</h6>
                                         <p className="font-xs color-grey-900">
                                             Door-to-door trucking solutions to move your cargo safely from ports,
@@ -151,24 +151,24 @@ export default function Service() {
                             </div >
                             {/* <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"><img src="/assets/imgs/page/services/warehouse.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/warehouse.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage4/pallet.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Warehouse &amp; Distribution</h6>
                                         <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
                                 </div >
                             </div >
                             <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"><img src="/assets/imgs/page/services/train.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/train.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Cross Border</h6>
                                         <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
                                 </div >
                             </div >
                             <div className="col-xl-4 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardService">
-                                    <div className="cardImage"><img src="/assets/imgs/page/services/ship.png" alt="transp" /></div>
-                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" />
+                                    <div className="cardImage"><img src="/assets/imgs/page/services/ship.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo"><img src="/assets/imgs/page/homepage1/order.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2">Customs Brokerages</h6>
                                         <p className="font-xs color-grey-900">We offer specialized departments for continental transports.</p></div>
                                 </div >
@@ -199,10 +199,10 @@ export default function Service() {
                                     </svg></Link></div>
                             </div>
                             <div className="col-lg-6 position-relative">
-                                <div className="certified-icon wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/certified.png" alt="transp" /></div>
+                                <div className="certified-icon wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/certified.png" alt="Durga Shipping" /></div>
                                 <div className="row">
-                                    <div className="col-md-6 wow animate__animated animate__fadeIn"><img className="mt-90" src="/assets/imgs/page/homepage3/img-info-5.png" alt="transp" /></div>
-                                    <div className="col-md-6 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="transp" /></div>
+                                    <div className="col-md-6 wow animate__animated animate__fadeIn"><img className="mt-90" src="/assets/imgs/page/homepage3/img-info-5.png" alt="Durga Shipping" /></div>
+                                    <div className="col-md-6 wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="Durga Shipping" /></div>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +211,7 @@ export default function Service() {
                 <section className="section pt-60 pb-65 bg-whychooseus-2">
                     <div className="container">
                         <div className="row align-items-center whychooseus-stats-layout">
-                            <div className="col-lg-6 mb-30 whychooseus-stats-text"><img className="mb-20" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                            <div className="col-lg-6 mb-30 whychooseus-stats-text"><img className="mb-20 brand-section-logo" src="/assets/imgs/template/logo.png" alt="Durga Shipping" />
                                 <h2 className="color-white mb-20 wow animate__animated animate__fadeIn">We take care about <span className="color-brand-1"> transportation </span> for your business</h2>
                                 {/* <Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="#">
                                     <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -348,35 +348,35 @@ export default function Service() {
                             <div className="col-lg-6">
                                 <ul className="list-how-works">
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="Durga Shipping" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-brand-2">Customer places order</h5>
                                             <p className="font-md color-grey-700">Inspection and quality check of goods</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="Durga Shipping" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-brand-2">Payment successful</h5>
                                             <p className="font-md color-grey-700">Payoneer, Paypal, or Visa master card</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="Durga Shipping" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-brand-2">Warehouse receives order</h5>
                                             <p className="font-md color-grey-700">Check the accuracy of the goods.</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="Durga Shipping" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-brand-2">Item picked, packed &amp; shipped</h5>
                                             <p className="font-md color-grey-700">Ship the goods to a local carrier</p>
                                         </div>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn">
-                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                        <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" /></span></div>
                                         <div className="info-how">
                                             <h5 className="color-brand-2">Delivered &amp; Measure success</h5>
                                             <p className="font-md color-grey-700">Update order status on the system</p>
@@ -397,10 +397,10 @@ export default function Service() {
                                     <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
                                     <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                                     <div className="box-gallery-faqs">
-                                        <div className="image-top"><img src="/assets/imgs/page/homepage1/img-faq1.png" alt="transp" /></div>
+                                        <div className="image-top"><img src="/assets/imgs/page/homepage1/img-faq1.png" alt="Durga Shipping" /></div>
                                         <div className="image-bottom">
-                                            <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="transp" /></div>
-                                            <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="transp" /></div>
+                                            <div className="image-faq-1"><img src="/assets/imgs/page/homepage1/img-faq2.png" alt="Durga Shipping" /></div>
+                                            <div className="image-faq-2"><img src="/assets/imgs/page/homepage1/img-faq3.png" alt="Durga Shipping" /></div>
                                         </div>
                                     </div>
                                 </div>

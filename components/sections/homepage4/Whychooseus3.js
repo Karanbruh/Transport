@@ -11,7 +11,7 @@ export default function Whychooseus3() {
                                 <div className="col-xl-6 col-lg-12 col-md-6">
                                     <div className="item-reason wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="Durga Shipping" /></div>
                                             <div className="card-info">
                                                 <h5 className="color-brand-2 mb-15">Shipping Options</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
@@ -21,7 +21,7 @@ export default function Whychooseus3() {
                                     </div>
                                     <div className="item-reason wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="Durga Shipping" /></div>
                                             <div className="card-info">
                                                 <h5 className="color-brand-2 mb-15">Customer Service</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
@@ -33,7 +33,7 @@ export default function Whychooseus3() {
                                 <div className="col-xl-6 col-lg-12 col-md-6">
                                     <div className="item-reason mt-30 wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="Durga Shipping" /></div>
                                             <div className="card-info">
                                                 <h5 className="color-brand-2 mb-15">Timely Deliveries</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur
@@ -43,7 +43,7 @@ export default function Whychooseus3() {
                                     </div>
                                     <div className="item-reason wow animate__animated animate__fadeIn">
                                         <div className="card-offer cardServiceStyle3 hover-up">
-                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
+                                            <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="Durga Shipping" /></div>
                                             <div className="card-info">
                                                 <h5 className="color-brand-2 mb-15">Tracking Systems</h5>
                                                 <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur

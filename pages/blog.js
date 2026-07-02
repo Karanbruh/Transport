@@ -25,7 +25,7 @@ export default function Blog() {
                         <div className="row mt-50">
                             <div className="col-xxl-6 col-xl-12 col-lg-12 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/img.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/img.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -39,7 +39,7 @@ export default function Blog() {
                             </div>
                             <div className="col-xxl-6 col-xl-12 col-lg-12 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/img2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/img2.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -71,7 +71,7 @@ export default function Blog() {
                         <div className="row">
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news1.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -85,7 +85,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news2.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -99,7 +99,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news3.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news3.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -113,7 +113,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news4.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news4.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -127,7 +127,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news5.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news5.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -141,7 +141,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news6.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news6.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -155,7 +155,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news7.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news7.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -169,7 +169,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news8.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news8.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -183,7 +183,7 @@ export default function Blog() {
                             </div>
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news9.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news9.png" alt="Durga Shipping" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-sing">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -278,21 +278,21 @@ export default function Blog() {
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">+91 9920074133</p>

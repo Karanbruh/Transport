@@ -1,7 +1,12 @@
-.title-favicon {
-    background-image: url(../imgs/template/icons/favicon.svg);
+.brand-section-logo {
+    max-height: 48px;
+    width: auto;
+}
+
+    background-image: url(../imgs/template/logo.png);
     background-repeat: no-repeat;
     background-position: left top 4px;
+    background-size: 40px auto;
     padding-left: 55px;
     min-height: 40px;
 }

@@ -25,7 +25,7 @@ export default function Testimonial3() {
                                         <div className="box-testimonial-3-left">
                                             <div className="mb-30">
                                                 <div className="card-testimonial-grid card-testimonial-3">
-                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy
                                                             Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of
                                                                 America</span></div>
@@ -37,7 +37,7 @@ export default function Testimonial3() {
                                             </div>
                                             <div className="mb-30">
                                                 <div className="card-testimonial-grid card-testimonial-3">
-                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy
                                                             Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of
                                                                 America</span></div>
@@ -53,7 +53,7 @@ export default function Testimonial3() {
                                         <div className="box-testimonial-3-right">
                                             <div className="mb-30">
                                                 <div className="card-testimonial-grid card-testimonial-3">
-                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy
                                                             Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of
                                                                 America</span></div>
@@ -65,7 +65,7 @@ export default function Testimonial3() {
                                             </div>
                                             <div className="mb-30">
                                                 <div className="card-testimonial-grid card-testimonial-3">
-                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                                                    <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy
                                                             Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of
                                                                 America</span></div>

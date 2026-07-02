@@ -5,7 +5,7 @@ export default function Pricing1() {
         <>
             <section className="section bg-grey-100 bg-choose-plan pt-110 pb-110">
                 <div className="container">
-                    <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                    <div className="text-center"><img className="mb-15 brand-section-logo" src="/assets/imgs/template/logo.png" alt="Durga Shipping" />
                         <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Choose The Best Plan</h2>
                         <p className="font-lg color-gray-500 wow animate__animated animate__fadeIn">Pick your plan. Change
                             whenever you want.<br className="d-none d-lg-block" />No switching fees between packages</p>

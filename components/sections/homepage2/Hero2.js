@@ -14,7 +14,7 @@ export default function Hero2() {
                                     to Another Level</h1>
                                 <p className="font-md color-brand-2 mb-20 wow animate__animated animate__fadeIn">Representative
                                     logistics operator providing full range of service in the sphere of<br className="d-none d-lg-block" />customs clearance and transportation worldwide.</p>
-                                <div className="mt-45 text-start"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                <div className="mt-45 text-start"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="Durga Shipping" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="Durga Shipping" /></Link></div>
                             </div>
                         </div>
                         <div className="box-slider-homepage2">

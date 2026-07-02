@@ -49,7 +49,7 @@ export default function Hero3() {
                                 <div className="row align-items-center">
                                     <div className="col-lg-4 col-md-4 col-sm-6 mb-45">
                                         <div className="item-feature">
-                                            <div className="icon-feature wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="transp" /></div>
+                                            <div className="icon-feature wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="Durga Shipping" /></div>
                                             <div className="info-feature wow animate__animated animate__fadeIn">
                                                 <h4 className="color-brand-2"><span>+</span><span className="counterUp count">{inViewport && <CountUp end={546} duration={10} />}</span></h4>
                                                 <p className="font-sm color-grey-700">Parcels Shipped</p>
@@ -58,7 +58,7 @@ export default function Hero3() {
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-6 mb-45">
                                         <div className="item-feature">
-                                            <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="transp" /></div>
+                                            <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="Durga Shipping" /></div>
                                             <div className="info-feature">
                                                 <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={30} duration={10} />}</span></h4>
                                                 <p className="font-sm color-grey-700">Cities Worldwide</p>
@@ -67,7 +67,7 @@ export default function Hero3() {
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-6 mb-45">
                                         <div className="item-feature">
-                                            <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="transp" /></div>
+                                            <div className="icon-feature"><img src="/assets/imgs/page/homepage3/delivery-2.png" alt="Durga Shipping" /></div>
                                             <div className="info-feature">
                                                 <h4 className="color-brand-2"><span>+</span><span className="count">{inViewport && <CountUp end={60} duration={10} />}</span></h4>
                                                 <p className="font-sm color-grey-700">Satisfied Clients</p>

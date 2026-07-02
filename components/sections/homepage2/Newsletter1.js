@@ -50,7 +50,7 @@ export default function Newsletter1() {
                                     </div>
                                     <ul className="list-info-footer">
                                         <li className="wow animate__animated animate__fadeIn">
-                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span>
+                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span>
                                             </div>
                                             <div className="cardInfo">
                                                 <h6 className="font-sm-bold color-grey-900">Address</h6>
@@ -58,15 +58,15 @@ export default function Newsletter1() {
                                             </div>
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
-                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span>
+                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span>
                                             </div>
                                             <div className="cardInfo">
                                                 <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                             </div>
                                         </li>
                                         <li className="wow animate__animated animate__fadeIn">
-                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span>
+                                            <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span>
                                             </div>
                                             <div className="cardInfo">
                                                 <h6 className="font-sm-bold color-grey-900">Telephone</h6>

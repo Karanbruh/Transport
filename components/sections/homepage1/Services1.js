@@ -22,7 +22,7 @@ export default function Services1() {
                         <div className="row offer-cards-row">
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/importexport.png" alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/importexport.png" alt="Durga Shipping" /></div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Import &amp; Export Documentation</h5>
                                         <p className="font-sm color-grey-900 mb-35">We manage the preparation and submission of all required customs documentation, ensuring a hassle-free experience for your international trade operations.</p>
@@ -35,7 +35,7 @@ export default function Services1() {
                             </div>
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/tax.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/tax.png" alt="Durga Shipping" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Duty &amp; Tax Advisory</h5>
@@ -49,7 +49,7 @@ export default function Services1() {
                             </div>
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/customs.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/customs.png" alt="Durga Shipping" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Customs Compliance Solutions</h5>
@@ -64,7 +64,7 @@ export default function Services1() {
                             </div>
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/authorities.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/authorities.png" alt="Durga Shipping" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Dedicated Liaison with Customs Authorities</h5>
@@ -78,7 +78,7 @@ export default function Services1() {
                             </div>
                             <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn d-flex">
                                 <div className="card-offer hover-up">
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo.png" alt="transp" />
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo.png" alt="Durga Shipping" />
                                     </div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Specialized Services for Unique Cargo</h5>
@@ -92,7 +92,7 @@ export default function Services1() {
                             </div>
                             {/* <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="card-offer hover-up" style={{ height: "400px" }}>
-                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="transp" /></div>
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/worldwide.png" alt="Durga Shipping" /></div>
                                     <div className="card-info">
                                         <h5 className="color-brand-2 mb-15">Cross Border</h5>
                                         <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with

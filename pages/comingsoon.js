@@ -52,7 +52,7 @@ export default function ComingSoon() {
                                 </div>
                             </div>
                             <div className="col-lg-7 mb-30">
-                                <div className="box-comingsoon-right"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/comingsoon/img.png" alt="transp" /></div>
+                                <div className="box-comingsoon-right"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/comingsoon/img.png" alt="Durga Shipping" /></div>
                             </div>
                         </div>
                     </div>

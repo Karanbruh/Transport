@@ -1,11 +1,11 @@
-import Link from "next/link";
+import FounderSpeechVideo from "./FounderSpeechVideo";
 
 export default function Info1() {
     return (
         <>
             <section className="section mt-85">
                 <div className="container">
-                    <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
+                    <div className="text-center"><img className="mb-15 brand-section-logo" src="/assets/imgs/template/logo.png" alt="Durga Shipping" />
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Delivering Results for
                             Industry Leaders</p>
                         <h2 className="color-brand-2 mb-65 mt-15 wow animate__animated animate__fadeIn">We are proud of our
@@ -14,8 +14,9 @@ export default function Info1() {
                     <div className="row mt-50 align-items-center">
                         <div className="col-xl-6 col-lg-6 mb-30">
                             <div className="box-images-pround">
-                                <div className="box-images wow animate__animated animate__fadeIn"><img className="img-main" src="/assets/imgs/page/homepage1/img1.png" alt="transp" />
-                                    <div className="image-2 shape-3"><img src="/assets/imgs/page/homepage1/icon1.png" alt="transp" /></div>
+                                <div className="box-images wow animate__animated animate__fadeIn">
+                                    <FounderSpeechVideo />
+                                    <div className="image-2 shape-3"><img src="/assets/imgs/page/homepage1/icon1.png" alt="Durga Shipping" /></div>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +58,7 @@ export default function Info1() {
                                         </li>
                                     </ul>
                                 </div>
-                                {/* <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div> */}
+                                {/* <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="Durga Shipping" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="Durga Shipping" /></Link></div> */}
                             </div>
                         </div>
                     </div>

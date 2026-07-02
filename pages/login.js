@@ -12,7 +12,7 @@ export default function Login() {
                             <div className="box-login-left">
                                 <h2 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Welcome back</h2>
                                 <p className="font-md color-grey-500 wow animate__animated animate__fadeIn">Access to all features. No credit card required.</p>
-                                <div className="box-btn-signin mt-55 wow animate__animated animate__fadeIn"><Link className="btn btn-signin mb-10" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Transp" />Sign in with Google</Link><Link className="btn btn-signin" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Transp" />Continue with Apple ID</Link></div>
+                                <div className="box-btn-signin mt-55 wow animate__animated animate__fadeIn"><Link className="btn btn-signin mb-10" href="#"><img src="/assets/imgs/page/login/Google.svg" alt="Durga Shipping" />Sign in with Google</Link><Link className="btn btn-signin" href="#"><img src="/assets/imgs/page/login/apple.svg" alt="Durga Shipping" />Continue with Apple ID</Link></div>
                                 <div className="box-or-login wow animate__animated animate__fadeIn"><span className="text-or font-xs color-grey-500">Or continue with</span></div>
                                 <div className="box-form-login wow animate__animated animate__fadeIn">
                                     <form action="#">
@@ -48,7 +48,7 @@ export default function Login() {
                             <div className="box-login-right">
                                 <div className="quote-shape shape-1" />
                                 <div className="box-info-bottom-img box-info-bottom-img-3">
-                                    <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                    <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="Durga Shipping" /></div>
                                     <div className="info-play wow animate__animated animate__fadeIn">
                                         <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
                                         <p className="font-sm color-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>

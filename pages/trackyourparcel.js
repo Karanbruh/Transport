@@ -23,7 +23,7 @@ export default function TrackParcel() {
                                     </div>
                                 </form>
                             </div>
-                            <div className="mt-40 d-flex justify-content-center"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                            <div className="mt-40 d-flex justify-content-center"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="Durga Shipping" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="Durga Shipping" /></Link></div>
                         </div>
                     </div>
                 </section>
@@ -58,9 +58,9 @@ export default function TrackParcel() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-30">
-                                <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/trackyourparcel/img-info-7.png" alt="transp" />
+                                <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/trackyourparcel/img-info-7.png" alt="Durga Shipping" />
                                     <div className="box-info-bottom-img">
-                                        <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                        <div className="image-play wow animate__animated animate__fadeIn"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="Durga Shipping" /></div>
                                         <div className="info-play wow animate__animated animate__fadeIn">
                                             <h4 className="color-white mb-15">We have 25 years experience in this passion</h4>
                                             <p className="font-sm color-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
@@ -97,7 +97,7 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/container.png" alt="Durga Shipping" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Over 1200 couriers</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -108,7 +108,7 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/24-hours.png" alt="Durga Shipping" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Automatic courier</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -119,7 +119,7 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/stopwatch.png" alt="Durga Shipping" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Real-time alert</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -130,7 +130,7 @@ export default function TrackParcel() {
                             <div className="col-xl-3 col-lg-3 col-md-6 wow animate__animated animate__fadeIn">
                                 <div className="item-reason">
                                     <div className="card-offer cardServiceStyle3 hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="transp" /></div>
+                                        <div className="card-image"><img src="/assets/imgs/page/homepage4/pallet.png" alt="Durga Shipping" /></div>
                                         <div className="card-info">
                                             <h5 className="color-brand-2 mb-15">Email alerts</h5>
                                             <p className="font-sm color-grey-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo consectetur.</p>
@@ -150,10 +150,10 @@ export default function TrackParcel() {
                                     <h2 className="title-favicon mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
                                     <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                                     <div className="box-gallery-faqs">
-                                        <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/trackyourparcel/img-faqs1.png" alt="transp" /></div>
+                                        <div className="image-top wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/trackyourparcel/img-faqs1.png" alt="Durga Shipping" /></div>
                                         <div className="image-bottom wow animate__animated animate__fadeIn">
-                                            <div className="image-faq-1"><img src="/assets/imgs/page/trackyourparcel/img-faqs2.png" alt="transp" /></div>
-                                            <div className="image-faq-2"><img src="/assets/imgs/page/trackyourparcel/img-faqs3.png" alt="transp" /></div>
+                                            <div className="image-faq-1"><img src="/assets/imgs/page/trackyourparcel/img-faqs2.png" alt="Durga Shipping" /></div>
+                                            <div className="image-faq-2"><img src="/assets/imgs/page/trackyourparcel/img-faqs3.png" alt="Durga Shipping" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -200,8 +200,8 @@ export default function TrackParcel() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-50">
-                                <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="transp" />
-                                    <div className="box-button-play"><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
+                                <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="Durga Shipping" />
+                                    <div className="box-button-play"><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="Durga Shipping" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
                                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                                 </div>
                             </div>
@@ -257,21 +257,21 @@ export default function TrackParcel() {
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">+91 9920074133</p>

@@ -22,7 +22,7 @@ export default function Menu() {
                     <div className="sub-menu five-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Sea Forwarding</h6>
-                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu1.png" alt="transp" /></div>
+                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu1.png" alt="Durga Shipping" /></div>
                             <ul className="megamenu">
                                 <li><Link href="/services">Container Shipping</Link></li>
                                 <li><Link href="/services">Bulk Shipping</Link></li>
@@ -33,7 +33,7 @@ export default function Menu() {
                         </div>
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Air Freight Forwarding</h6>
-                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu2.png" alt="transp" /></div>
+                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu2.png" alt="Durga Shipping" /></div>
                             <ul className="megamenu">
                                 <li><Link href="/services">General Cargo</Link></li>
                                 <li><Link href="/services">Express Shipping</Link></li>
@@ -44,7 +44,7 @@ export default function Menu() {
                         </div>
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Land Transportation</h6>
-                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu3.png" alt="transp" /></div>
+                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu3.png" alt="Durga Shipping" /></div>
                             <ul className="megamenu">
                                 <li><Link href="/services">Road Freight</Link></li>
                                 <li><Link href="/services">Rail Freight</Link></li>
@@ -55,7 +55,7 @@ export default function Menu() {
                         </div>
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Railway Logistics</h6>
-                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu4.png" alt="transp" /></div>
+                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu4.png" alt="Durga Shipping" /></div>
                             <ul className="megamenu">
                                 <li><Link href="/services">Rail Freight Transportation</Link></li>
                                 <li><Link href="/services">Rail Terminal Services</Link></li>
@@ -66,7 +66,7 @@ export default function Menu() {
                         </div>
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Warehouse</h6>
-                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu5.png" alt="transp" /></div>
+                            <div className="menu-image"><img src="/assets/imgs/page/homepage1/menu5.png" alt="Durga Shipping" /></div>
                             <ul className="megamenu">
                                 <li><Link href="/services">Warehousing</Link></li>
                                 <li><Link href="/services">Distribution Center Operations</Link></li>

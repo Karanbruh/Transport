@@ -118,7 +118,7 @@ export default function Contact() {
                                 <div className="col-xl-4 col-lg-5 position-relative">
                                     <div className="box-contactform-right">
                                         <h5 className="color-brand-2 mb-35 wow animate__animated animate__fadeIn">Headquarters</h5>
-                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="transp" />
+                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="Durga Shipping & Transportation Agency" />
                                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">4517 Washington Ave. Manchester, Kentucky 39495</p>
                                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -141,10 +141,10 @@ export default function Contact() {
                 </section> */}
                 <section className="section mt-100">
                     <div className="container">
-                        <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">We have branches in many<br className="d-none d-lg-block" />regions of the india</h2>
+                        <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Our office in<br className="d-none d-lg-block" />Mumbai, India</h2>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 mb-30">
-                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">We has experience in handling the formalities and documentation required for your imports and exports. We work with all national station to guarantee that your load will safely reach without any delays.</p>
+                                <p className="font-md color-gray-700 wow animate__animated animate__fadeIn">We have experience in handling the formalities and documentation required for your imports and exports. We work with all national stations to guarantee that your load will safely reach without any delays.</p>
                             </div>
                             {/* <div className="col-lg-6 col-md-6 mb-30 text-md-end text-start"><Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="/request-a-quote">
                                 <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -154,8 +154,8 @@ export default function Contact() {
                         <div className="row mt-50 contact-branches-row">
                             <div className="col-xl-3 col-md-6 mb-50">
                                 <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch1.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch1.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2 mb-15">Mumbai</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Room 29, 2nd Floor, Hansraj Damodar Bldg, 277 SBS Road, Fort, Mumbai 400001</p>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
@@ -163,21 +163,11 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch2.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
-                                        <h6 className="color-brand-2 mb-15">Uttar Pradesh</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Transport Agency Opposite Land Customs Station Bldg. Sonauli, Mehrajganj</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>sanjaymishra5984@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
                             {/* <div className="col-xl-3 col-md-6 mb-50">
                                 <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch3.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch3.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Asia Pacific</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>1-2-1 Otemachi, Chiyoda-ku, Tokyo, Japan</p>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
@@ -187,8 +177,8 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-md-6 mb-50">
                                 <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="transp" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" />
+                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="Durga Shipping" /></div>
+                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="Durga Shipping" />
                                         <h6 className="color-brand-2 mb-15">Shipping Co. Middle East</h6>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Dubai Logistics City, Building B, Office 203, Dubai, UAE</p>
                                         <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+91 9920074133</p>
@@ -196,7 +186,6 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </div> */}
-                        </div>
                     </div>
                 </section>
                 {/* <section id="meet-our-team" className="section pt-110 pb-100">
@@ -210,7 +199,7 @@ export default function Contact() {
                         <div className="row mt-20">
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -231,7 +220,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -252,7 +241,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -273,7 +262,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -294,7 +283,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team5.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team5.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -315,7 +304,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team6.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team6.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -336,7 +325,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team7.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team7.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -357,7 +346,7 @@ export default function Contact() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team8.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/about/team8.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -491,21 +480,21 @@ export default function Contact() {
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">Room 29, 2nd Floor, Hansraj Damodar Bldg, 277 SBS Road, Fort, Mumbai 400001</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
                                                     <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">+91 9920074133</p>

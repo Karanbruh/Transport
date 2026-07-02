@@ -10,7 +10,7 @@ export default function Custom404() {
                         <div className="row align-items-center">
                             <div className="col-lg-1" />
                             <div className="col-lg-5 mb-30 text-center">
-                                <div className="box-404-right"><img src="/assets/imgs/page/404/img.png" alt="transp" /></div>
+                                <div className="box-404-right"><img src="/assets/imgs/page/404/img.png" alt="Durga Shipping" /></div>
                             </div>
                             <div className="col-lg-5 mb-30">
                                 <div className="box-404-left">
@@ -74,21 +74,21 @@ export default function Custom404() {
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">+91 9920074133</p>

@@ -8,7 +8,7 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 width-23 mb-30">
-                                <div className="mb-20"><img src="/assets/imgs/template/logo-footer.svg" alt="transp" /></div>
+                                <div className="mb-20"><img src="/assets/imgs/template/logo.png" alt="Durga Shipping & Transportation Agency" /></div>
                                 <p className="font-xs mb-20 color-white">We fuse our global network with our depth of expertise in
                                     air freight, ocean freight, railway transportation, trucking, and multimode transportation,
                                     also we are providing sourcing, warehousing, E-commercial fulfillment, and value-added
@@ -56,15 +56,15 @@ export default function Footer1({ }) {
                                 <h5 className="mb-10 color-brand-1">Gallery</h5>
                                 <div className="galleries-footer">
                                     <ul className="list-imgs">
-                                        <li> <img src="/assets/imgs/page/homepage1/gal1.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal2.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal3.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal4.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal5.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal6.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal7.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal8.png" alt="transp" /></li>
-                                        <li> <img src="/assets/imgs/page/homepage1/gal9.png" alt="transp" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal1.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal2.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal3.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal4.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal5.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal6.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal7.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal8.png" alt="Durga Shipping" /></li>
+                                        <li> <img src="/assets/imgs/page/homepage1/gal9.png" alt="Durga Shipping" /></li>
                                     </ul>
                                 </div>
                             </div> */}

@@ -7,7 +7,7 @@ export default function Info7() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-30">
-                            <div className="box-image-info-7"><img src="/assets/imgs/page/homepage4/img-info-7.png" alt="transp" />
+                            <div className="box-image-info-7"><img src="/assets/imgs/page/homepage4/img-info-7.png" alt="Durga Shipping" />
                                 <div className="quote shape-2" />
                             </div>
                         </div>
@@ -35,7 +35,7 @@ export default function Info7() {
                                             design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="d-flex mt-20"><Link className="mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                <div className="d-flex mt-20"><Link className="mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="Durga Shipping" /></Link><Link className="wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="Durga Shipping" /></Link></div>
                             </div>
                         </div>
                     </div>

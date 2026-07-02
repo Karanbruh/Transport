@@ -7,7 +7,7 @@ export default function Info3() {
                 <div className="container">
                     <div className="row mt-50 align-items-center">
                         <div className="col-xl-7 col-lg-6 mb-30">
-                            <div className="box-images-info-3"><img className="img-main wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage2/img-info-3.png" alt="transp" />
+                            <div className="box-images-info-3"><img className="img-main wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage2/img-info-3.png" alt="Durga Shipping" />
                                 <div className="box-info-3-bottom">
                                     <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Warehousing</h3>
                                     <p className="font-sm color-grey-900 wow animate__animated animate__fadeIn">We are
@@ -42,7 +42,7 @@ export default function Info3() {
                                     </div>
                                 </div>
                                 <div className="box-info-bottom-img box-info-bottom-img-2">
-                                    <div className="image-play"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                    <div className="image-play"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="Durga Shipping" /></div>
                                     <div className="info-play">
                                         <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 25 years
                                             experience in this passion</h4>

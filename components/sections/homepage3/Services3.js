@@ -20,8 +20,8 @@ export default function Services3() {
                     <div className="row mt-50">
                         <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardService">
-                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service1.png" alt="transp" /></Link></div>
-                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service1.png" alt="Durga Shipping" /></Link></div>
+                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                     <h6 className="color-brand-2">Sea Forwarding</h6>
                                     <p className="font-xs color-grey-900">We offer specialized departments for continental
                                         transports.</p>
@@ -30,8 +30,8 @@ export default function Services3() {
                         </div>
                         <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardService">
-                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service2.png" alt="transp" /></Link></div>
-                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/plane.png" alt="transp" />
+                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service2.png" alt="Durga Shipping" /></Link></div>
+                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/plane.png" alt="Durga Shipping" />
                                     <h6 className="color-brand-2">Air Freight Forwarding</h6>
                                     <p className="font-xs color-grey-900">We offer specialized departments for continental
                                         transports.</p>
@@ -40,8 +40,8 @@ export default function Services3() {
                         </div>
                         <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardService">
-                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service3.png" alt="transp" /></Link></div>
-                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" />
+                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service3.png" alt="Durga Shipping" /></Link></div>
+                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" />
                                     <h6 className="color-brand-2">Land Transportation</h6>
                                     <p className="font-xs color-grey-900">We offer specialized departments for continental
                                         transports.</p>
@@ -50,8 +50,8 @@ export default function Services3() {
                         </div>
                         <div className="col-xl-3 col-md-6 mb-50 wow animate__animated animate__fadeIn">
                             <div className="cardService">
-                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service4.png" alt="transp" /></Link></div>
-                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/train.png" alt="transp" />
+                                <div className="cardImage"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage3/service4.png" alt="Durga Shipping" /></Link></div>
+                                <div className="cardInfo"> <Link href="/service-detail"><img src="/assets/imgs/page/homepage1/train.png" alt="Durga Shipping" />
                                     <h6 className="color-brand-2">Railway Logistics</h6>
                                     <p className="font-xs color-grey-900">We offer specialized departments for continental
                                         transports.</p>

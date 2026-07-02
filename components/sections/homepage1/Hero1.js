@@ -5,8 +5,8 @@ export default function Hero1() {
         <>
             <section className="section d-block">
                 <div className="box-swiper">
-                    <div className="swiper-container swiper-group-1 swiper-banner-1 ">
-                        <Hero1Slider/>
+                    <div className="swiper-group-1 swiper-banner-1">
+                        <Hero1Slider />
                     </div>
                 </div>
             </section>

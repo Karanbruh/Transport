@@ -42,7 +42,7 @@ export default function Whychooseus1() {
                     </div>
                     <div className="row mt-30 align-items-center">
                         <div className="col-lg-6 mb-30">
-                            <div className="box-image-why"><img src="/assets/imgs/page/homepage2/img-why.png" alt="transp" />
+                            <div className="box-image-why"><img src="/assets/imgs/page/homepage2/img-why.png" alt="Durga Shipping" />
                                 <div className="quote shape-2" />
                             </div>
                         </div>

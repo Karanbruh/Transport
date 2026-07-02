@@ -52,7 +52,7 @@ export default function ServiceSlider() {
                 >
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="card-offer hover-up">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="transp" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/homepage1/cargo-ship.png" alt="Durga Shipping" /></div>
                             <div className="card-info">
                                 <h5 className="color-brand-2 mb-15">Sea Forwarding</h5>
                                 <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
@@ -65,7 +65,7 @@ export default function ServiceSlider() {
                     </SwiperSlide>
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="card-offer hover-up">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="transp" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/homepage1/plane.png" alt="Durga Shipping" /></div>
                             <div className="card-info">
                                 <h5 className="color-brand-2 mb-15">Air Freight Forwarding</h5>
                                 <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
@@ -78,7 +78,7 @@ export default function ServiceSlider() {
                     </SwiperSlide>
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="card-offer hover-up">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" /></div>
                             <div className="card-info">
                                 <h5 className="color-brand-2 mb-15">Land Transportation</h5>
                                 <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>
@@ -91,7 +91,7 @@ export default function ServiceSlider() {
                     </SwiperSlide>
                     <SwiperSlide className="wow animate__animated animate__fadeIn">
                         <div className="card-offer hover-up">
-                            <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></div>
+                            <div className="card-image"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" /></div>
                             <div className="card-info">
                                 <h5 className="color-brand-2 mb-15">Railway Logistics</h5>
                                 <p className="font-sm color-grey-900 mb-35">We are professional in ocean freight with more than 12 years of experience and have shipped more than 100k shipments.</p>

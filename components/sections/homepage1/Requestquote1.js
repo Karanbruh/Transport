@@ -37,7 +37,7 @@ export default function Requestquote1() {
                     <div className="row stats-cards-row">
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
                             <div className="cardLeadingCompany h-100 w-100">
-                                <div className="cardImage"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/handover.png" alt="transp" /></span></div>
+                                <div className="cardImage"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/handover.png" alt="Durga Shipping" /></span></div>
                                 <div className="cardInfo">
                                     <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="counterUp">{inViewport && <CountUp end={40000} duration={10} />}</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Parcels shipped</p>
@@ -46,7 +46,7 @@ export default function Requestquote1() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
                             <div className="cardLeadingCompany h-100 w-100">
-                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/cities.png" alt="transp" /></span></div>
+                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/cities.png" alt="Durga Shipping" /></span></div>
                                 <div className="cardInfo">
                                     <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={10} duration={10} />}</span><span>+</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Countries served</p>
@@ -55,7 +55,7 @@ export default function Requestquote1() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
                             <div className="cardLeadingCompany h-100 w-100">
-                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/client.png" alt="transp" /></span></div>
+                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/client.png" alt="Durga Shipping" /></span></div>
                                 <div className="cardInfo">
                                     <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={500} duration={10} />}</span><span>+</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Clients satisfied</p>
@@ -64,7 +64,7 @@ export default function Requestquote1() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30 d-flex">
                             <div className="cardLeadingCompany h-100 w-100">
-                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/company.png" alt="transp" /></span></div>
+                                <div className="cardImage"><span className="img"><img src="/assets/imgs/page/homepage1/company.png" alt="Durga Shipping" /></span></div>
                                 <div className="cardInfo">
                                     <h3 className="color-brand-1 wow animate__animated animate__fadeIn"><span className="count">{inViewport && <CountUp end={300} duration={10} />}</span><span>+</span></h3>
                                     <p className="font-lg color-white wow animate__animated animate__fadeIn">Companies we have helped</p>
@@ -181,7 +181,7 @@ export default function Requestquote1() {
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="box-image-contact"><img src="/assets/imgs/page/homepage1/img-contact.png" alt="transp" /></div>
+                                <div className="box-image-contact"><img src="/assets/imgs/page/homepage1/img-contact.png" alt="Durga Shipping" /></div>
                             </div>
                         </div>
                     </div> */}

@@ -8,7 +8,7 @@ export default function Bgmap() {
                 <div className="container">
                     <div className="box-map">
                         <iframe className="wow animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7547.752406152937!2d72.8388177!3d18.936873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1004e548b59%3A0x607350820bd23b03!2s277%20Hansraj%20Damodar%20Building!5e0!3m2!1sen!2sin!4v1769074450120!5m2!1sen!2sin" height={420} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="transp" />
+                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.png" alt="Durga Shipping & Transportation Agency" />
                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">Room 29, 2nd Floor, Hansraj Damodar Bldg, 277 SBS Road, Fort, Mumbai 400001</p>
                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

@@ -52,7 +52,7 @@ export default function Testimonial2Slider() {
             >
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-testimonial-grid">
-                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="transp" /></Link>
+                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author.png" alt="Durga Shipping" /></Link>
                             <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy
                                 Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of America</span>
                             </div>
@@ -61,13 +61,13 @@ export default function Testimonial2Slider() {
                             dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple
                             task list.</p>
                         <div className="card-bottom-info justify-content-between">
-                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-testimonial-grid">
-                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author2.png" alt="transp" /></Link>
+                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author2.png" alt="Durga Shipping" /></Link>
                             <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Eleanor
                                 Pena</span></Link><span className="font-sm color-grey-500 department">Bank of America</span>
                             </div>
@@ -76,13 +76,13 @@ export default function Testimonial2Slider() {
                             dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple
                             task list.</p>
                         <div className="card-bottom-info justify-content-between">
-                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-testimonial-grid">
-                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author3.png" alt="transp" /></Link>
+                        <div className="box-author mb-25"><Link href="#"><img src="/assets/imgs/page/homepage1/author3.png" alt="Durga Shipping" /></Link>
                             <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Cody
                                 Fisher</span></Link><span className="font-sm color-grey-500 department">Bank of America</span>
                             </div>
@@ -91,7 +91,7 @@ export default function Testimonial2Slider() {
                             dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple
                             task list.</p>
                         <div className="card-bottom-info justify-content-between">
-                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                            <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><img src="/assets/imgs/template/icons/star.svg" alt="Durga Shipping" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                         </div>
                     </div>
                 </SwiperSlide>

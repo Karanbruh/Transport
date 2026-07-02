@@ -13,7 +13,7 @@ export default function Howitwork2() {
                         <div className="box-list-how-it-work">
                             <ul className="list-how-works">
                                 <li>
-                                    <div className="image-how"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/order.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-white wow animate__animated animate__fadeIn">Customer places order
                                         </h5>
@@ -22,7 +22,7 @@ export default function Howitwork2() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-white wow animate__animated animate__fadeIn">Payment successful
                                         </h5>
@@ -31,7 +31,7 @@ export default function Howitwork2() {
                                     </div>
                                 </li>
                                 <li className="dashed-2">
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-white wow animate__animated animate__fadeIn">Warehouse receives
                                             order</h5>
@@ -40,7 +40,7 @@ export default function Howitwork2() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-white wow animate__animated animate__fadeIn">Item picked, packed &amp;
                                             shipped</h5>
@@ -49,7 +49,7 @@ export default function Howitwork2() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
+                                    <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="Durga Shipping" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-white wow animate__animated animate__fadeIn">Delivered &amp; Measure
                                             success</h5>
@@ -59,7 +59,7 @@ export default function Howitwork2() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="box-button-play-2"><a className="btn btn-play popup-youtube hover-up" onClick={() => setOpen(true)}><img src="/assets/imgs/page/homepage4/play-icon.png" alt="transp" /><span className="color-brand-2 wow animate__animated animate__fadeIn">How it work ?<br />Watch video
+                        <div className="box-button-play-2"><a className="btn btn-play popup-youtube hover-up" onClick={() => setOpen(true)}><img src="/assets/imgs/page/homepage4/play-icon.png" alt="Durga Shipping" /><span className="color-brand-2 wow animate__animated animate__fadeIn">How it work ?<br />Watch video
                             tour</span></a></div>
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                     </div>

@@ -57,14 +57,14 @@ export default function Header2({ handleMobileMenuOpen }) {
             <header className={scroll ? "header sticky-bar  header-style-2 stick" : "header sticky-bar  header-style-2"}>
                 <div className="container">
                     <div className="header-middle">
-                        <div className="header-logo"><Link className="d-flex" href="/"><img alt="transp" src="/assets/imgs/template/logo.png" /></Link></div>
+                        <div className="header-logo"><Link className="d-flex" href="/"><img alt="Durga Shipping & Transportation Agency" src="/assets/imgs/template/logo.png" /></Link></div>
                         <div className="header-contact">
                             <div className="box-header-contact-1 mr-30">
-                                <div className="icon-contact"> <img alt="transp" src="/assets/imgs/page/homepage3/address.png" /></div>
+                                <div className="icon-contact"> <img alt="Durga Shipping" src="/assets/imgs/page/homepage3/address.png" /></div>
                                 <div className="info-contact">65 Allerton Street 901 N Pitt Str, USA</div>
                             </div>
                             <div className="box-header-contact-2">
-                                <div className="icon-contact"> <img alt="transp" src="/assets/imgs/page/homepage3/phone.png" /></div>
+                                <div className="icon-contact"> <img alt="Durga Shipping" src="/assets/imgs/page/homepage3/phone.png" /></div>
                                 <div className="info-contact">65 Allerton Street 901 N Pitt Str, USA</div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export default function Header2({ handleMobileMenuOpen }) {
 
                     <div className="main-header">
                         <div className="header-left">
-                            <div className="header-logo d-inline-block d-md-none"><Link className="d-flex" href="/"><img alt="Ecom" src="/assets/imgs/template/logo.png" /></Link></div>
+                            <div className="header-logo d-inline-block d-md-none"><Link className="d-flex" href="/"><img alt="Durga Shipping & Transportation Agency" src="/assets/imgs/template/logo.png" /></Link></div>
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <Menu />
@@ -91,11 +91,11 @@ export default function Header2({ handleMobileMenuOpen }) {
                                     </svg>English</span></span>
                                     <div className="dropdown-account">
                                         <ul>
-                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/en.png" alt="transp" />
+                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/en.png" alt="Durga Shipping" />
                                                 English</Link></li>
-                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/fr.png" alt="transp" />
+                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/fr.png" alt="Durga Shipping" />
                                                 French</Link></li>
-                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/cn.png" alt="transp" />
+                                            <li><Link className="font-md" href="#"><img src="/assets/imgs/template/icons/cn.png" alt="Durga Shipping" />
                                                 Chiness</Link></li>
                                         </ul>
                                     </div>

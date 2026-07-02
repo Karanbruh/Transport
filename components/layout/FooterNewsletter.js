@@ -8,7 +8,7 @@ export default function FooterNewsletter() {
                     <div className="container-sub">
                         <div className="row">
                             <div className="col-sm-6 mb-30">
-                                <div className="mb-20"><img src="assets/imgs/template/logo-footer.svg" alt="transp" /></div>
+                                <div className="mb-20"><img src="/assets/imgs/template/logo.png" alt="Durga Shipping & Transportation Agency" /></div>
                                 <p className="font-xs mb-20 color-white">We fuse our global network with our depth of expertise in
                                     air freight, ocean freight, railway transportation, trucking, and multimode transportation,
                                     also we are providing sourcing, warehousing, E-commercial fulfillment, and value-added
@@ -46,8 +46,7 @@ export default function FooterNewsletter() {
                     <div className="container-sub">
                         <div className="footer-bottom">
                             <div className="row align-items-center">
-                                <div className="col-sm-5 text-center text-sm-start"><span className="color-grey-300 font-xs">©Transp
-                                    Official {new Date().getFullYear()}. All right reversed.</span></div>
+                                <div className="col-sm-5 text-center text-sm-start"><span className="color-grey-300 font-xs">© Durga Shipping {new Date().getFullYear()}. All rights reserved.</span></div>
                                 <div className="col-sm-7 text-center text-sm-end">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-xs color-grey-300" href="/term-conditions">Privacy policy</Link>

@@ -19,7 +19,7 @@ export default function OurTeam() {
                                     </svg></Link></div>
                             </div>
                             <div className="col-lg-6 mb-30">
-                                <div className="box-img-testimonials-4"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="transp" />
+                                <div className="box-img-testimonials-4"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage4/img-testimonial-4.png" alt="Durga Shipping" />
                                     <div className="box-info-testimonial-4">
                                         <h3 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">Satisfied</h3>
                                         <p className="font-sm color-grey-900 wow animate__animated animate__fadeIn">We always strive to serve our customers in the best way.</p>
@@ -48,7 +48,7 @@ export default function OurTeam() {
                         <div className="row mt-50">
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -69,7 +69,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -90,7 +90,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -111,7 +111,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -160,7 +160,7 @@ export default function OurTeam() {
                         <div className="row mt-50">
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -181,7 +181,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -202,7 +202,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -223,7 +223,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -244,7 +244,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team1.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -265,7 +265,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team2.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Lori Stevens</h6>
                                         <div className="info-bottom">
@@ -286,7 +286,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team3.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -307,7 +307,7 @@ export default function OurTeam() {
                             </div>
                             <div className="col-xl-3 col-sm-6 mb-50 wow animate__animated animate__fadeIn">
                                 <div className="cardTeam">
-                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="transp" /></div>
+                                    <div className="cardImage"> <img src="/assets/imgs/page/homepage2/team4.png" alt="Durga Shipping" /></div>
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2">Devon Lane</h6>
                                         <div className="info-bottom">
@@ -357,8 +357,8 @@ export default function OurTeam() {
                                 </div>
                             </div>
                             <div className="col-lg-6 mb-50">
-                                <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="transp" />
-                                    <div className="box-button-play"><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
+                                <div className="box-image-why box-image-why-info-8"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage3/img-info-6.png" alt="Durga Shipping" />
+                                    <div className="box-button-play"><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="Durga Shipping" /><span className="color-white wow animate__animated animate__fadeIn">How it work ?<br />Watch video tour</span></a></div>
                                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                                 </div>
                             </div>
@@ -414,21 +414,21 @@ export default function OurTeam() {
                                         </div>
                                         <ul className="list-info-footer">
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/address.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Address</h6>
                                                     <p className="font-sm color-grey-900">65 Allerton Street 901 N Pitt Str, USA</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/email.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Email</h6>
-                                                    <p className="font-sm color-grey-900">contact@transp.com</p>
+                                                    <p className="font-sm color-grey-900">sanjaymishra5984@gmail.com</p>
                                                 </div>
                                             </li>
                                             <li className="wow animate__animated animate__fadeIn">
-                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="transp" /></span></div>
+                                                <div className="cardImage"><span className="icon-brand-1"><img src="/assets/imgs/page/homepage2/phone.svg" alt="Durga Shipping" /></span></div>
                                                 <div className="cardInfo">
                                                     <h6 className="font-sm-bold color-grey-900">Telephone</h6>
                                                     <p className="font-sm color-grey-900">+91 9920074133</p>
