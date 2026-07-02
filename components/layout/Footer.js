@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SHOW_SOCIAL_MEDIA_LINKS } from "@/lib/contact";
 
 export default function Footer1({ }) {
     return (
@@ -14,8 +15,12 @@ export default function Footer1({ }) {
                                     also we are providing sourcing, warehousing, E-commercial fulfillment, and value-added
                                     service to our customers including kitting, assembly, customized package and business
                                     inserts, etc.</p>
+                                {SHOW_SOCIAL_MEDIA_LINKS && (
+                                <>
                                 <h6 className="color-brand-1">Follow Us</h6>
                                 <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-youtube" href="#" /><Link className="icon-socials icon-skype" href="#" /></div>
+                                </>
+                                )}
                             </div>
                             <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-1">Company</h5>
