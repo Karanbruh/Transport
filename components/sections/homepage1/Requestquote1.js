@@ -30,7 +30,7 @@ export default function Requestquote1() {
                 <div className="box-bg-leading" />
                 <div className="container">
                     <div className="text-center mb-35">
-                        <h2 className="color-brand-1 mb-15 wow animate__animated animate__fadeIn">World’s Leading Companies<br className="d-none d-lg-block" />For Over 80 Years.</h2>
+                        <h2 className="color-brand-1 mb-15 wow animate__animated animate__fadeIn">Helping worlds leading companies<br className="d-none d-lg-block" />for over 30 years</h2>
                         <p className="font-md color-white wow animate__animated animate__fadeIn">A big opportunity for your
                             business growth. Delivering Results for Industry Leaders. We are<br className="d-none d-lg-block" />proud of our workfor and have worked hard.</p>
                     </div>
