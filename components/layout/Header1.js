@@ -51,6 +51,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
                                         </path>
                                     </svg></Link></div>
                             )}
+                        </div>
                     </div>
                 </div>
             </div>

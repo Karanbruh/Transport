@@ -5788,6 +5788,17 @@ footer a {
   max-width: 820px;
 }
 
+.banner-1 .hero-banner-subtitle {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(3, 68, 96, 0.9);
+  max-width: 720px;
+}
+
 .banner-1 .hero-banner-desc {
   color: #ffffff;
   text-shadow: 0 1px 10px rgba(3, 68, 96, 0.85);
@@ -5798,12 +5809,22 @@ footer a {
     font-size: 36px;
     line-height: 44px;
   }
+
+  .banner-1 .hero-banner-subtitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 767.98px) {
   .banner-1 .hero-banner-title {
     font-size: 30px;
     line-height: 38px;
+  }
+
+  .banner-1 .hero-banner-subtitle {
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 

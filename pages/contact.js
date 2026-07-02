@@ -369,7 +369,7 @@ export default function Contact() {
                     </div>
                 </section> */}
                 <div className="mt-20" />
-                <div className="section bg-map d-block">
+                <div className="section bg-map d-block" id="contact-form" style={{ scrollMarginTop: "120px" }}>
                     <div className="container">
                         <div className="box-newsletter">
                             <h3 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">Get in Touch</h3>
